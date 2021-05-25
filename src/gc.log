@@ -1,0 +1,1145 @@
+[2021-05-25T22:10:08.140+0000][0.014s][5635][info] Heap region size: 1M
+[2021-05-25T22:10:08.141+0000][0.014s][5635][debug] Minimum heap 8388608  Initial heap 536870912  Maximum heap 2147483648
+[2021-05-25T22:10:08.142+0000][0.015s][5635][debug] ConcGCThreads: 3 offset 29
+[2021-05-25T22:10:08.142+0000][0.015s][5635][debug] ParallelGCThreads: 13
+[2021-05-25T22:10:08.142+0000][0.015s][5635][debug] Initialize mark stack with 4096 chunks, maximum 16384
+[2021-05-25T22:10:08.142+0000][0.015s][5635][debug] Expand the heap. requested expansion amount: 536870912B expansion amount: 536870912B
+[2021-05-25T22:10:08.148+0000][0.021s][5635][debug] Target occupancy update: old: 0B, new: 536870912B
+[2021-05-25T22:10:08.148+0000][0.021s][5635][debug] Initial Refinement Zones: green: 13, yellow: 39, red: 65, min yellow size: 26
+[2021-05-25T22:10:08.149+0000][0.022s][5635][info ] Using G1
+[2021-05-25T22:10:08.149+0000][0.022s][5635][info ] Heap address: 0x0000000780000000, size: 2048 MB, Compressed Oops mode: Zero based, Oop shift amount: 3
+[2021-05-25T22:10:09.310+0000][1.183s][13059][debug] GC(0) Heap before GC invocations=0 (full 0): garbage-first heap   total 524288K, used 25600K [0x0000000780000000, 0x0000000800000000)
+[2021-05-25T22:10:09.310+0000][1.183s][13059][debug] GC(0)   region size 1024K, 25 young (25600K), 0 survivors (0K)
+[2021-05-25T22:10:09.310+0000][1.183s][13059][debug] GC(0)  Metaspace       used 14145K, capacity 14492K, committed 14592K, reserved 1062912K
+[2021-05-25T22:10:09.310+0000][1.183s][13059][debug] GC(0)   class space    used 1397K, capacity 1525K, committed 1536K, reserved 1048576K
+[2021-05-25T22:10:09.311+0000][1.183s][13059][info ] GC(0) Pause Young (Normal) (G1 Evacuation Pause)
+[2021-05-25T22:10:09.311+0000][1.184s][13059][info ] GC(0) Using 12 workers of 13 for evacuation
+[2021-05-25T22:10:09.311+0000][1.184s][13059][debug] GC(0) TLAB totals: thrds: 5  refills: 71 max: 62 slow allocs: 1 max 1 waste:  8.3% gc: 2080784B max: 524008B slow: 59008B max: 55976B fast: 0B max: 0B
+[2021-05-25T22:10:09.311+0000][1.184s][13059][debug] GC(0) Mutator Allocation stats, regions: 25, wasted size: 0B ( 0.0%)
+[2021-05-25T22:10:09.311+0000][1.184s][13059][debug] GC(0) Desired survivor size 2097152 bytes, new threshold 15 (max threshold 15)
+[2021-05-25T22:10:09.311+0000][1.184s][13059][debug] GC(0) Finish choosing CSet. old: 0 regions, predicted old region time: 0.00ms, time remaining: 0.00
+[2021-05-25T22:10:09.311+0000][1.184s][13059][debug] GC(0) GC Termination Stats
+[2021-05-25T22:10:09.312+0000][1.184s][13059][debug] GC(0)      elapsed  --strong roots-- -------termination------- ------waste (KiB)------
+[2021-05-25T22:10:09.312+0000][1.184s][13059][debug] GC(0) thr     ms        ms      %        ms      %    attempts  total   alloc    undo
+[2021-05-25T22:10:09.312+0000][1.184s][13059][debug] GC(0) --- --------- --------- ------ --------- ------ -------- ------- ------- -------
+[2021-05-25T22:10:09.317+0000][1.190s][37891][debug] GC(0)  10      5.12      0.86  16.81      0.24   4.60      106       3       3       0
+[2021-05-25T22:10:09.317+0000][1.190s][39171][debug] GC(0)   7      5.21      1.58  30.32      0.27   5.09      117       2       2       0
+[2021-05-25T22:10:09.317+0000][1.190s][21251][debug] GC(0)   0      5.26      1.08  20.58      0.25   4.67       99       3       3       0
+[2021-05-25T22:10:09.317+0000][1.190s][39939][debug] GC(0)   3      5.29      0.58  11.02      0.29   5.40       99       3       3       0
+[2021-05-25T22:10:09.317+0000][1.190s][40451][debug] GC(0)   1      5.31      0.65  12.28      0.32   5.99      114       3       3       0
+[2021-05-25T22:10:09.317+0000][1.190s][26883][debug] GC(0)  11      5.30      0.64  12.16      0.23   4.35      110       2       2       0
+[2021-05-25T22:10:09.317+0000][1.190s][39427][debug] GC(0)   5      5.37      0.75  14.02      0.33   6.15       95       3       3       0
+[2021-05-25T22:10:09.317+0000][1.190s][25859][debug] GC(0)   4      5.42      5.12  94.35      0.00   0.04        1       9       9       0
+[2021-05-25T22:10:09.317+0000][1.190s][26627][debug] GC(0)   8      5.43      0.70  12.94      0.36   6.55      104       2       2       0
+[2021-05-25T22:10:09.317+0000][1.190s][25347][debug] GC(0)   6      5.50      1.41  25.63      0.26   4.74       93       3       2       0
+[2021-05-25T22:10:09.317+0000][1.190s][24835][debug] GC(0)   2      5.53      1.61  29.11      0.24   4.39      109       3       2       0
+[2021-05-25T22:10:09.317+0000][1.190s][38659][debug] GC(0)   9      5.51      0.59  10.79      0.25   4.48      108       3       3       0
+[2021-05-25T22:10:09.317+0000][1.190s][13059][debug] GC(0) Running G1 Clear Card Table Task using 1 workers for 1 units of work for 25 regions.
+[2021-05-25T22:10:09.317+0000][1.190s][13059][debug] GC(0) Skipped phase1 of Reference Processing due to unavailable references
+[2021-05-25T22:10:09.317+0000][1.190s][13059][debug] GC(0) Skipped phase3 of Reference Processing due to unavailable references
+[2021-05-25T22:10:09.318+0000][1.190s][13059][debug] GC(0) Running G1 Free Collection Set using 1 workers for collection set length 25
+[2021-05-25T22:10:09.318+0000][1.191s][13059][debug] GC(0) Young PLAB allocation: allocated: 3037840B, wasted: 44264B, unused: 21584B, used: 2971992B, undo waste: 1136B, 
+[2021-05-25T22:10:09.318+0000][1.191s][13059][debug] GC(0) Young other allocation: region end waste: 0B, regions filled: 4, direct allocated: 316088B, failure used: 0B, failure wasted: 0B
+[2021-05-25T22:10:09.318+0000][1.191s][13059][debug] GC(0) Young sizing: calculated: 594392B, actual: 594392B
+[2021-05-25T22:10:09.318+0000][1.191s][13059][debug] GC(0) Old PLAB allocation: allocated: 0B, wasted: 0B, unused: 0B, used: 0B, undo waste: 0B, 
+[2021-05-25T22:10:09.318+0000][1.191s][13059][debug] GC(0) Old other allocation: region end waste: 0B, regions filled: 0, direct allocated: 0B, failure used: 0B, failure wasted: 0B
+[2021-05-25T22:10:09.318+0000][1.191s][13059][debug] GC(0) Old sizing: calculated: 0B, actual: 2064B
+[2021-05-25T22:10:09.318+0000][1.191s][13059][debug] GC(0) Basic information (value update), threshold: 241591910B (45.00), target occupancy: 536870912B, current occupancy: 3353928B, recent allocation size: 0B, recent allocation duration: 1170.23ms, recent old gen allocation rate: 0.00B/s, recent marking phase length: 0.00ms
+[2021-05-25T22:10:09.318+0000][1.191s][13059][debug] GC(0) Adaptive IHOP information (value update), threshold: 241591910B (47.37), internal target occupancy: 510027366B, occupancy: 3353928B, additional buffer size: 321912832B, predicted old gen allocation rate: 0.00B/s, predicted marking phase length: 0.00ms, prediction active: false
+[2021-05-25T22:10:09.318+0000][1.191s][13059][debug] GC(0) Updated Refinement Zones: green: 13, yellow: 39, red: 65
+[2021-05-25T22:10:09.318+0000][1.191s][13059][info ] GC(0)   Pre Evacuate Collection Set: 0.1ms
+[2021-05-25T22:10:09.318+0000][1.191s][13059][debug] GC(0)     Prepare TLABs: 0.0ms
+[2021-05-25T22:10:09.318+0000][1.191s][13059][debug] GC(0)     Choose Collection Set: 0.0ms
+[2021-05-25T22:10:09.318+0000][1.191s][13059][debug] GC(0)     Humongous Register: 0.0ms
+[2021-05-25T22:10:09.318+0000][1.191s][13059][info ] GC(0)   Evacuate Collection Set: 5.7ms
+[2021-05-25T22:10:09.318+0000][1.191s][13059][debug] GC(0)     Ext Root Scanning (ms):   Min:  0.1, Avg:  0.5, Max:  2.5, Diff:  2.5, Sum:  5.9, Workers: 12
+[2021-05-25T22:10:09.318+0000][1.191s][13059][debug] GC(0)     Update RS (ms):           Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 12
+[2021-05-25T22:10:09.318+0000][1.191s][13059][debug] GC(0)       Processed Buffers:        Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 12
+[2021-05-25T22:10:09.318+0000][1.191s][13059][debug] GC(0)       Scanned Cards:            Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 12
+[2021-05-25T22:10:09.318+0000][1.191s][13059][debug] GC(0)       Skipped Cards:            Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 12
+[2021-05-25T22:10:09.318+0000][1.191s][13059][debug] GC(0)     Scan RS (ms):             Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 12
+[2021-05-25T22:10:09.318+0000][1.191s][13059][debug] GC(0)       Scanned Cards:            Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 12
+[2021-05-25T22:10:09.318+0000][1.191s][13059][debug] GC(0)       Claimed Cards:            Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 12
+[2021-05-25T22:10:09.319+0000][1.191s][13059][debug] GC(0)       Skipped Cards:            Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 12
+[2021-05-25T22:10:09.319+0000][1.191s][13059][debug] GC(0)     Code Root Scanning (ms):  Min:  0.0, Avg:  0.2, Max:  0.8, Diff:  0.8, Sum:  2.0, Workers: 12
+[2021-05-25T22:10:09.319+0000][1.191s][13059][debug] GC(0)     AOT Root Scanning (ms):   skipped
+[2021-05-25T22:10:09.319+0000][1.192s][13059][debug] GC(0)     Object Copy (ms):         Min:  2.6, Avg:  4.2, Max:  4.8, Diff:  2.2, Sum: 50.5, Workers: 12
+[2021-05-25T22:10:09.319+0000][1.192s][13059][debug] GC(0)     Termination (ms):         Min:  0.0, Avg:  0.3, Max:  0.4, Diff:  0.4, Sum:  3.0, Workers: 12
+[2021-05-25T22:10:09.319+0000][1.192s][13059][debug] GC(0)       Termination Attempts:     Min: 1, Avg: 96.2, Max: 117, Diff: 116, Sum: 1155, Workers: 12
+[2021-05-25T22:10:09.319+0000][1.192s][13059][debug] GC(0)     GC Worker Other (ms):     Min:  0.1, Avg:  0.3, Max:  0.4, Diff:  0.3, Sum:  3.1, Workers: 12
+[2021-05-25T22:10:09.319+0000][1.192s][13059][debug] GC(0)     GC Worker Total (ms):     Min:  5.2, Avg:  5.4, Max:  5.5, Diff:  0.4, Sum: 64.6, Workers: 12
+[2021-05-25T22:10:09.319+0000][1.192s][13059][info ] GC(0)   Post Evacuate Collection Set: 0.6ms
+[2021-05-25T22:10:09.319+0000][1.192s][13059][debug] GC(0)     Code Roots Fixup: 0.0ms
+[2021-05-25T22:10:09.319+0000][1.192s][13059][debug] GC(0)     Clear Card Table: 0.0ms
+[2021-05-25T22:10:09.319+0000][1.192s][13059][debug] GC(0)     Reference Processing: 0.2ms
+[2021-05-25T22:10:09.319+0000][1.192s][13059][debug] GC(0)       Reconsider SoftReferences: 0.0ms
+[2021-05-25T22:10:09.319+0000][1.192s][13059][debug] GC(0)         SoftRef (ms):             skipped
+[2021-05-25T22:10:09.319+0000][1.192s][13059][debug] GC(0)       Notify Soft/WeakReferences: 0.1ms
+[2021-05-25T22:10:09.319+0000][1.192s][13059][debug] GC(0)         SoftRef (ms):             Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 1
+[2021-05-25T22:10:09.319+0000][1.192s][13059][debug] GC(0)         WeakRef (ms):             Min:  0.1, Avg:  0.1, Max:  0.1, Diff:  0.0, Sum:  0.1, Workers: 1
+[2021-05-25T22:10:09.319+0000][1.192s][13059][debug] GC(0)         FinalRef (ms):            Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 1
+[2021-05-25T22:10:09.319+0000][1.192s][13059][debug] GC(0)         Total (ms):               Min:  0.1, Avg:  0.1, Max:  0.1, Diff:  0.0, Sum:  0.1, Workers: 1
+[2021-05-25T22:10:09.319+0000][1.192s][13059][debug] GC(0)       Notify and keep alive finalizable: 0.0ms
+[2021-05-25T22:10:09.319+0000][1.192s][13059][debug] GC(0)         FinalRef (ms):            skipped
+[2021-05-25T22:10:09.319+0000][1.192s][13059][debug] GC(0)       Notify PhantomReferences: 0.0ms
+[2021-05-25T22:10:09.319+0000][1.192s][13059][debug] GC(0)         PhantomRef (ms):          Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 1
+[2021-05-25T22:10:09.319+0000][1.192s][13059][debug] GC(0)       SoftReference:
+[2021-05-25T22:10:09.319+0000][1.192s][13059][debug] GC(0)         Discovered: 0
+[2021-05-25T22:10:09.319+0000][1.192s][13059][debug] GC(0)         Cleared: 0
+[2021-05-25T22:10:09.319+0000][1.192s][13059][debug] GC(0)       WeakReference:
+[2021-05-25T22:10:09.319+0000][1.192s][13059][debug] GC(0)         Discovered: 800
+[2021-05-25T22:10:09.319+0000][1.192s][13059][debug] GC(0)         Cleared: 629
+[2021-05-25T22:10:09.319+0000][1.192s][13059][debug] GC(0)       FinalReference:
+[2021-05-25T22:10:09.319+0000][1.192s][13059][debug] GC(0)         Discovered: 0
+[2021-05-25T22:10:09.319+0000][1.192s][13059][debug] GC(0)         Cleared: 0
+[2021-05-25T22:10:09.319+0000][1.192s][13059][debug] GC(0)       PhantomReference:
+[2021-05-25T22:10:09.319+0000][1.192s][13059][debug] GC(0)         Discovered: 161
+[2021-05-25T22:10:09.319+0000][1.192s][13059][debug] GC(0)         Cleared: 5
+[2021-05-25T22:10:09.319+0000][1.192s][13059][debug] GC(0)     Weak Processing: 0.0ms
+[2021-05-25T22:10:09.319+0000][1.192s][13059][debug] GC(0)     Merge Per-Thread State: 0.0ms
+[2021-05-25T22:10:09.319+0000][1.192s][13059][debug] GC(0)     Code Roots Purge: 0.0ms
+[2021-05-25T22:10:09.319+0000][1.192s][13059][debug] GC(0)     Redirty Cards: 0.0ms
+[2021-05-25T22:10:09.319+0000][1.192s][13059][debug] GC(0)     DerivedPointerTable Update: 0.0ms
+[2021-05-25T22:10:09.319+0000][1.192s][13059][debug] GC(0)     Free Collection Set: 0.2ms
+[2021-05-25T22:10:09.319+0000][1.192s][13059][debug] GC(0)     Humongous Reclaim: 0.0ms
+[2021-05-25T22:10:09.319+0000][1.192s][13059][debug] GC(0)     Start New Collection Set: 0.0ms
+[2021-05-25T22:10:09.319+0000][1.192s][13059][debug] GC(0)     Resize TLABs: 0.0ms
+[2021-05-25T22:10:09.319+0000][1.192s][13059][debug] GC(0)     Expand Heap After Collection: 0.0ms
+[2021-05-25T22:10:09.319+0000][1.192s][13059][info ] GC(0)   Other: 1.5ms
+[2021-05-25T22:10:09.319+0000][1.192s][13059][info ] GC(0) Eden regions: 25->0(303)
+[2021-05-25T22:10:09.319+0000][1.192s][13059][info ] GC(0) Survivor regions: 0->4(4)
+[2021-05-25T22:10:09.319+0000][1.192s][13059][info ] GC(0) Old regions: 0->0
+[2021-05-25T22:10:09.319+0000][1.192s][13059][info ] GC(0) Humongous regions: 0->0
+[2021-05-25T22:10:09.319+0000][1.192s][13059][info ] GC(0) Metaspace: 14145K->14145K(1062912K)
+[2021-05-25T22:10:09.319+0000][1.192s][13059][debug] GC(0) Heap after GC invocations=1 (full 0): garbage-first heap   total 524288K, used 3275K [0x0000000780000000, 0x0000000800000000)
+[2021-05-25T22:10:09.319+0000][1.192s][13059][debug] GC(0)   region size 1024K, 4 young (4096K), 4 survivors (4096K)
+[2021-05-25T22:10:09.319+0000][1.192s][13059][debug] GC(0)  Metaspace       used 14145K, capacity 14492K, committed 14592K, reserved 1062912K
+[2021-05-25T22:10:09.319+0000][1.192s][13059][debug] GC(0)   class space    used 1397K, capacity 1525K, committed 1536K, reserved 1048576K
+[2021-05-25T22:10:09.320+0000][1.192s][13059][info ] GC(0) Pause Young (Normal) (G1 Evacuation Pause) 25M->3M(512M) 8.969ms
+[2021-05-25T22:10:09.320+0000][1.192s][13059][info ] GC(0) User=0.05s Sys=0.02s Real=0.01s
+[2021-05-25T22:10:12.596+0000][4.469s][35331][debug] Request concurrent cycle initiation (occupancy higher than threshold) occupancy: 239075328B allocation request: 3145744B threshold: 241591910B (45.00) source: concurrent humongous allocation
+[2021-05-25T22:10:12.596+0000][4.469s][13059][debug] Request concurrent cycle initiation (requested by GC cause). GC cause: G1 Humongous Allocation
+[2021-05-25T22:10:12.596+0000][4.469s][13059][debug] GC(1) Heap before GC invocations=1 (full 0): garbage-first heap   total 524288K, used 240843K [0x0000000780000000, 0x0000000800000000)
+[2021-05-25T22:10:12.596+0000][4.469s][13059][debug] GC(1)   region size 1024K, 9 young (9216K), 4 survivors (4096K)
+[2021-05-25T22:10:12.596+0000][4.469s][13059][debug] GC(1)  Metaspace       used 15630K, capacity 15986K, committed 16128K, reserved 1062912K
+[2021-05-25T22:10:12.596+0000][4.469s][13059][debug] GC(1)   class space    used 1552K, capacity 1698K, committed 1792K, reserved 1048576K
+[2021-05-25T22:10:12.596+0000][4.469s][13059][debug] GC(1) Initiate concurrent cycle (concurrent cycle initiation requested)
+[2021-05-25T22:10:12.596+0000][4.469s][13059][info ] GC(1) Pause Young (Concurrent Start) (G1 Humongous Allocation)
+[2021-05-25T22:10:12.596+0000][4.469s][13059][info ] GC(1) Using 12 workers of 13 for evacuation
+[2021-05-25T22:10:12.596+0000][4.469s][13059][debug] GC(1) TLAB totals: thrds: 9  refills: 12 max: 3 slow allocs: 57 max 57 waste: 85.1% gc: 3561336B max: 523704B slow: 10512B max: 9920B fast: 0B max: 0B
+[2021-05-25T22:10:12.596+0000][4.469s][13059][debug] GC(1) Mutator Allocation stats, regions: 5, wasted size: 0B ( 0.0%)
+[2021-05-25T22:10:12.596+0000][4.469s][13059][debug] GC(1) Desired survivor size 20447232 bytes, new threshold 15 (max threshold 15)
+[2021-05-25T22:10:12.596+0000][4.469s][13059][debug] GC(1) Finish choosing CSet. old: 0 regions, predicted old region time: 0.00ms, time remaining: 139.66
+[2021-05-25T22:10:12.597+0000][4.470s][13059][debug] GC(1) GC Termination Stats
+[2021-05-25T22:10:12.597+0000][4.470s][13059][debug] GC(1)      elapsed  --strong roots-- -------termination------- ------waste (KiB)------
+[2021-05-25T22:10:12.597+0000][4.470s][13059][debug] GC(1) thr     ms        ms      %        ms      %    attempts  total   alloc    undo
+[2021-05-25T22:10:12.597+0000][4.470s][13059][debug] GC(1) --- --------- --------- ------ --------- ------ -------- ------- ------- -------
+[2021-05-25T22:10:12.606+0000][4.479s][39939][debug] GC(1)   2      9.52      9.50  99.82      0.00   0.00        1       0       0       0
+[2021-05-25T22:10:12.606+0000][4.479s][26627][debug] GC(1)   4      9.59      7.95  82.93      1.48  15.45        1       0       0       0
+[2021-05-25T22:10:12.606+0000][4.479s][25859][debug] GC(1)  11      9.60      7.89  82.19      1.56  16.24        1       0       0       0
+[2021-05-25T22:10:12.606+0000][4.479s][37891][debug] GC(1)  10      9.66      7.95  82.30      1.61  16.64        1       0       0       0
+[2021-05-25T22:10:12.606+0000][4.479s][26883][debug] GC(1)   8      9.73      7.92  81.40      1.45  14.96        1       0       0       0
+[2021-05-25T22:10:12.607+0000][4.479s][39171][debug] GC(1)   6      9.80      7.97  81.32      1.44  14.71        1       0       0       0
+[2021-05-25T22:10:12.607+0000][4.479s][39427][debug] GC(1)   1      9.86      7.95  80.65      1.69  17.17        1       0       0       0
+[2021-05-25T22:10:12.607+0000][4.480s][24835][debug] GC(1)   7      9.88      7.93  80.29      1.69  17.06        1       0       0       0
+[2021-05-25T22:10:12.607+0000][4.480s][21251][debug] GC(1)   3      9.96      8.17  82.11      1.57  15.74        1       0       0       0
+[2021-05-25T22:10:12.607+0000][4.480s][25347][debug] GC(1)   5     10.01      7.96  79.56      1.64  16.38        1       0       0       0
+[2021-05-25T22:10:12.607+0000][4.480s][38659][debug] GC(1)   0     10.07      8.11  80.49      1.58  15.70        1       5       5       0
+[2021-05-25T22:10:12.607+0000][4.480s][40451][debug] GC(1)   9     10.08      7.93  78.63      1.53  15.17        1       0       0       0
+[2021-05-25T22:10:12.607+0000][4.480s][13059][debug] GC(1) Running G1 Clear Card Table Task using 1 workers for 1 units of work for 9 regions.
+[2021-05-25T22:10:12.607+0000][4.480s][13059][debug] GC(1) Skipped phase1 of Reference Processing due to unavailable references
+[2021-05-25T22:10:12.607+0000][4.480s][13059][debug] GC(1) Skipped phase3 of Reference Processing due to unavailable references
+[2021-05-25T22:10:12.607+0000][4.480s][13059][debug] GC(1) Running G1 Free Collection Set using 1 workers for collection set length 9
+[2021-05-25T22:10:12.607+0000][4.480s][13059][debug] GC(1) Live humongous region 0 object size 3145744 start 0x0000000780000000  with remset 0 code roots 0 is marked 0 reclaim candidate 0 type array 1
+[2021-05-25T22:10:12.607+0000][4.480s][13059][debug] GC(1) Live humongous region 4 object size 3145744 start 0x0000000780400000  with remset 0 code roots 0 is marked 0 reclaim candidate 0 type array 1
+[2021-05-25T22:10:12.607+0000][4.480s][13059][debug] GC(1) Live humongous region 8 object size 3145744 start 0x0000000780800000  with remset 0 code roots 0 is marked 0 reclaim candidate 0 type array 1
+[2021-05-25T22:10:12.608+0000][4.480s][13059][debug] GC(1) Live humongous region 12 object size 3145744 start 0x0000000780c00000  with remset 0 code roots 0 is marked 0 reclaim candidate 0 type array 1
+[2021-05-25T22:10:12.608+0000][4.480s][13059][debug] GC(1) Live humongous region 16 object size 3145744 start 0x0000000781000000  with remset 0 code roots 0 is marked 0 reclaim candidate 0 type array 1
+[2021-05-25T22:10:12.608+0000][4.480s][13059][debug] GC(1) Live humongous region 20 object size 3145744 start 0x0000000781400000  with remset 0 code roots 0 is marked 0 reclaim candidate 0 type array 1
+[2021-05-25T22:10:12.608+0000][4.480s][13059][debug] GC(1) Live humongous region 24 object size 3145744 start 0x0000000781800000  with remset 0 code roots 0 is marked 0 reclaim candidate 0 type array 1
+[2021-05-25T22:10:12.608+0000][4.481s][13059][debug] GC(1) Live humongous region 28 object size 3145744 start 0x0000000781c00000  with remset 0 code roots 0 is marked 0 reclaim candidate 0 type array 1
+[2021-05-25T22:10:12.608+0000][4.481s][13059][debug] GC(1) Live humongous region 32 object size 3145744 start 0x0000000782000000  with remset 0 code roots 0 is marked 0 reclaim candidate 0 type array 1
+[2021-05-25T22:10:12.608+0000][4.481s][13059][debug] GC(1) Live humongous region 36 object size 3145744 start 0x0000000782400000  with remset 0 code roots 0 is marked 0 reclaim candidate 0 type array 1
+[2021-05-25T22:10:12.608+0000][4.481s][13059][debug] GC(1) Live humongous region 40 object size 3145744 start 0x0000000782800000  with remset 0 code roots 0 is marked 0 reclaim candidate 0 type array 1
+[2021-05-25T22:10:12.608+0000][4.481s][13059][debug] GC(1) Live humongous region 44 object size 3145744 start 0x0000000782c00000  with remset 0 code roots 0 is marked 0 reclaim candidate 0 type array 1
+[2021-05-25T22:10:12.608+0000][4.481s][13059][debug] GC(1) Live humongous region 48 object size 3145744 start 0x0000000783000000  with remset 0 code roots 0 is marked 0 reclaim candidate 0 type array 1
+[2021-05-25T22:10:12.608+0000][4.481s][13059][debug] GC(1) Live humongous region 52 object size 3145744 start 0x0000000783400000  with remset 0 code roots 0 is marked 0 reclaim candidate 0 type array 1
+[2021-05-25T22:10:12.608+0000][4.481s][13059][debug] GC(1) Live humongous region 56 object size 3145744 start 0x0000000783800000  with remset 0 code roots 0 is marked 0 reclaim candidate 0 type array 1
+[2021-05-25T22:10:12.608+0000][4.481s][13059][debug] GC(1) Live humongous region 60 object size 3145744 start 0x0000000783c00000  with remset 0 code roots 0 is marked 0 reclaim candidate 0 type array 1
+[2021-05-25T22:10:12.608+0000][4.481s][13059][debug] GC(1) Live humongous region 64 object size 3145744 start 0x0000000784000000  with remset 0 code roots 0 is marked 0 reclaim candidate 0 type array 1
+[2021-05-25T22:10:12.608+0000][4.481s][13059][debug] GC(1) Live humongous region 68 object size 3145744 start 0x0000000784400000  with remset 0 code roots 0 is marked 0 reclaim candidate 0 type array 1
+[2021-05-25T22:10:12.608+0000][4.481s][13059][debug] GC(1) Live humongous region 72 object size 3145744 start 0x0000000784800000  with remset 0 code roots 0 is marked 0 reclaim candidate 0 type array 1
+[2021-05-25T22:10:12.608+0000][4.481s][13059][debug] GC(1) Live humongous region 76 object size 3145744 start 0x0000000784c00000  with remset 0 code roots 0 is marked 0 reclaim candidate 0 type array 1
+[2021-05-25T22:10:12.608+0000][4.481s][13059][debug] GC(1) Live humongous region 80 object size 3145744 start 0x0000000785000000  with remset 0 code roots 0 is marked 0 reclaim candidate 0 type array 1
+[2021-05-25T22:10:12.608+0000][4.481s][13059][debug] GC(1) Live humongous region 84 object size 3145744 start 0x0000000785400000  with remset 0 code roots 0 is marked 0 reclaim candidate 0 type array 1
+[2021-05-25T22:10:12.608+0000][4.481s][13059][debug] GC(1) Live humongous region 88 object size 3145744 start 0x0000000785800000  with remset 0 code roots 0 is marked 0 reclaim candidate 0 type array 1
+[2021-05-25T22:10:12.608+0000][4.481s][13059][debug] GC(1) Live humongous region 92 object size 3145744 start 0x0000000785c00000  with remset 0 code roots 0 is marked 0 reclaim candidate 0 type array 1
+[2021-05-25T22:10:12.608+0000][4.481s][13059][debug] GC(1) Live humongous region 96 object size 3145744 start 0x0000000786000000  with remset 0 code roots 0 is marked 0 reclaim candidate 0 type array 1
+[2021-05-25T22:10:12.608+0000][4.481s][13059][debug] GC(1) Live humongous region 100 object size 3145744 start 0x0000000786400000  with remset 0 code roots 0 is marked 0 reclaim candidate 0 type array 1
+[2021-05-25T22:10:12.608+0000][4.481s][13059][debug] GC(1) Live humongous region 104 object size 3145744 start 0x0000000786800000  with remset 0 code roots 0 is marked 0 reclaim candidate 0 type array 1
+[2021-05-25T22:10:12.608+0000][4.481s][13059][debug] GC(1) Live humongous region 108 object size 3145744 start 0x0000000786c00000  with remset 0 code roots 0 is marked 0 reclaim candidate 0 type array 1
+[2021-05-25T22:10:12.608+0000][4.481s][13059][debug] GC(1) Live humongous region 112 object size 3145744 start 0x0000000787000000  with remset 0 code roots 0 is marked 0 reclaim candidate 0 type array 1
+[2021-05-25T22:10:12.608+0000][4.481s][13059][debug] GC(1) Live humongous region 116 object size 3145744 start 0x0000000787400000  with remset 0 code roots 0 is marked 0 reclaim candidate 0 type array 1
+[2021-05-25T22:10:12.608+0000][4.481s][13059][debug] GC(1) Live humongous region 120 object size 3145744 start 0x0000000787800000  with remset 0 code roots 0 is marked 0 reclaim candidate 0 type array 1
+[2021-05-25T22:10:12.608+0000][4.481s][13059][debug] GC(1) Live humongous region 124 object size 3145744 start 0x0000000787c00000  with remset 0 code roots 0 is marked 0 reclaim candidate 0 type array 1
+[2021-05-25T22:10:12.608+0000][4.481s][13059][debug] GC(1) Live humongous region 128 object size 3145744 start 0x0000000788000000  with remset 0 code roots 0 is marked 0 reclaim candidate 0 type array 1
+[2021-05-25T22:10:12.608+0000][4.481s][13059][debug] GC(1) Live humongous region 132 object size 3145744 start 0x0000000788400000  with remset 0 code roots 0 is marked 0 reclaim candidate 0 type array 1
+[2021-05-25T22:10:12.608+0000][4.481s][13059][debug] GC(1) Live humongous region 136 object size 3145744 start 0x0000000788800000  with remset 0 code roots 0 is marked 0 reclaim candidate 0 type array 1
+[2021-05-25T22:10:12.608+0000][4.481s][13059][debug] GC(1) Live humongous region 140 object size 3145744 start 0x0000000788c00000  with remset 0 code roots 0 is marked 0 reclaim candidate 0 type array 1
+[2021-05-25T22:10:12.608+0000][4.481s][13059][debug] GC(1) Live humongous region 144 object size 3145744 start 0x0000000789000000  with remset 0 code roots 0 is marked 0 reclaim candidate 0 type array 1
+[2021-05-25T22:10:12.608+0000][4.481s][13059][debug] GC(1) Live humongous region 148 object size 3145744 start 0x0000000789400000  with remset 0 code roots 0 is marked 0 reclaim candidate 0 type array 1
+[2021-05-25T22:10:12.608+0000][4.481s][13059][debug] GC(1) Live humongous region 152 object size 3145744 start 0x0000000789800000  with remset 0 code roots 0 is marked 0 reclaim candidate 0 type array 1
+[2021-05-25T22:10:12.608+0000][4.481s][13059][debug] GC(1) Live humongous region 156 object size 3145744 start 0x0000000789c00000  with remset 0 code roots 0 is marked 0 reclaim candidate 0 type array 1
+[2021-05-25T22:10:12.608+0000][4.481s][13059][debug] GC(1) Live humongous region 160 object size 3145744 start 0x000000078a000000  with remset 0 code roots 0 is marked 0 reclaim candidate 0 type array 1
+[2021-05-25T22:10:12.608+0000][4.481s][13059][debug] GC(1) Live humongous region 164 object size 3145744 start 0x000000078a400000  with remset 0 code roots 0 is marked 0 reclaim candidate 0 type array 1
+[2021-05-25T22:10:12.608+0000][4.481s][13059][debug] GC(1) Live humongous region 168 object size 3145744 start 0x000000078a800000  with remset 0 code roots 0 is marked 0 reclaim candidate 0 type array 1
+[2021-05-25T22:10:12.608+0000][4.481s][13059][debug] GC(1) Live humongous region 172 object size 3145744 start 0x000000078ac00000  with remset 0 code roots 0 is marked 0 reclaim candidate 0 type array 1
+[2021-05-25T22:10:12.608+0000][4.481s][13059][debug] GC(1) Live humongous region 176 object size 3145744 start 0x000000078b000000  with remset 0 code roots 0 is marked 0 reclaim candidate 0 type array 1
+[2021-05-25T22:10:12.608+0000][4.481s][13059][debug] GC(1) Live humongous region 180 object size 3145744 start 0x000000078b400000  with remset 0 code roots 0 is marked 0 reclaim candidate 0 type array 1
+[2021-05-25T22:10:12.608+0000][4.481s][13059][debug] GC(1) Live humongous region 184 object size 3145744 start 0x000000078b800000  with remset 0 code roots 0 is marked 0 reclaim candidate 0 type array 1
+[2021-05-25T22:10:12.608+0000][4.481s][13059][debug] GC(1) Live humongous region 188 object size 3145744 start 0x000000078bc00000  with remset 0 code roots 0 is marked 0 reclaim candidate 0 type array 1
+[2021-05-25T22:10:12.608+0000][4.481s][13059][debug] GC(1) Live humongous region 192 object size 3145744 start 0x000000078c000000  with remset 0 code roots 0 is marked 0 reclaim candidate 0 type array 1
+[2021-05-25T22:10:12.608+0000][4.481s][13059][debug] GC(1) Live humongous region 196 object size 3145744 start 0x000000078c400000  with remset 0 code roots 0 is marked 0 reclaim candidate 0 type array 1
+[2021-05-25T22:10:12.608+0000][4.481s][13059][debug] GC(1) Live humongous region 200 object size 3145744 start 0x000000078c800000  with remset 0 code roots 0 is marked 0 reclaim candidate 0 type array 1
+[2021-05-25T22:10:12.608+0000][4.481s][13059][debug] GC(1) Live humongous region 204 object size 3145744 start 0x000000078cc00000  with remset 0 code roots 0 is marked 0 reclaim candidate 0 type array 1
+[2021-05-25T22:10:12.608+0000][4.481s][13059][debug] GC(1) Live humongous region 208 object size 3145744 start 0x000000078d000000  with remset 0 code roots 0 is marked 0 reclaim candidate 0 type array 1
+[2021-05-25T22:10:12.608+0000][4.481s][13059][debug] GC(1) Live humongous region 212 object size 3145744 start 0x000000078d400000  with remset 0 code roots 0 is marked 0 reclaim candidate 0 type array 1
+[2021-05-25T22:10:12.608+0000][4.481s][13059][debug] GC(1) Live humongous region 216 object size 3145744 start 0x000000078d800000  with remset 0 code roots 0 is marked 0 reclaim candidate 0 type array 1
+[2021-05-25T22:10:12.608+0000][4.481s][13059][debug] GC(1) Live humongous region 220 object size 3145744 start 0x000000078dc00000  with remset 0 code roots 0 is marked 0 reclaim candidate 0 type array 1
+[2021-05-25T22:10:12.608+0000][4.481s][13059][debug] GC(1) Live humongous region 224 object size 3145744 start 0x000000078e000000  with remset 0 code roots 0 is marked 0 reclaim candidate 0 type array 1
+[2021-05-25T22:10:12.608+0000][4.481s][13059][debug] GC(1) Young PLAB allocation: allocated: 3905000B, wasted: 6520B, unused: 327168B, used: 3571312B, undo waste: 0B, 
+[2021-05-25T22:10:12.609+0000][4.481s][13059][debug] GC(1) Young other allocation: region end waste: 0B, regions filled: 4, direct allocated: 148128B, failure used: 0B, failure wasted: 0B
+[2021-05-25T22:10:12.609+0000][4.481s][13059][debug] GC(1) Young sizing: calculated: 714256B, actual: 684288B
+[2021-05-25T22:10:12.609+0000][4.481s][13059][debug] GC(1) Old PLAB allocation: allocated: 0B, wasted: 0B, unused: 0B, used: 0B, undo waste: 0B, 
+[2021-05-25T22:10:12.609+0000][4.481s][13059][debug] GC(1) Old other allocation: region end waste: 0B, regions filled: 0, direct allocated: 0B, failure used: 0B, failure wasted: 0B
+[2021-05-25T22:10:12.609+0000][4.481s][13059][debug] GC(1) Old sizing: calculated: 0B, actual: 2064B
+[2021-05-25T22:10:12.609+0000][4.482s][13059][debug] GC(1) Basic information (value update), threshold: 241591910B (45.00), target occupancy: 536870912B, current occupancy: 243128456B, recent allocation size: 239075328B, recent allocation duration: 3278.19ms, recent old gen allocation rate: 72929142.52B/s, recent marking phase length: 0.00ms
+[2021-05-25T22:10:12.609+0000][4.482s][13059][debug] GC(1) Adaptive IHOP information (value update), threshold: 241591910B (47.37), internal target occupancy: 510027366B, occupancy: 243128456B, additional buffer size: 184549376B, predicted old gen allocation rate: 11392496.84B/s, predicted marking phase length: 0.00ms, prediction active: false
+[2021-05-25T22:10:12.609+0000][4.482s][13059][debug] GC(1) Updated Refinement Zones: green: 13, yellow: 39, red: 65
+[2021-05-25T22:10:12.609+0000][4.482s][13059][info ] GC(1)   Pre Evacuate Collection Set: 0.1ms
+[2021-05-25T22:10:12.609+0000][4.482s][13059][debug] GC(1)     Prepare TLABs: 0.0ms
+[2021-05-25T22:10:12.609+0000][4.482s][13059][debug] GC(1)     Choose Collection Set: 0.1ms
+[2021-05-25T22:10:12.609+0000][4.482s][13059][debug] GC(1)     Humongous Register: 0.0ms
+[2021-05-25T22:10:12.609+0000][4.482s][13059][debug] GC(1)     Clear Claimed Marks: 0.0ms
+[2021-05-25T22:10:12.609+0000][4.482s][13059][info ] GC(1)   Evacuate Collection Set: 10.2ms
+[2021-05-25T22:10:12.609+0000][4.482s][13059][debug] GC(1)     Ext Root Scanning (ms):   Min:  0.7, Avg:  7.1, Max:  7.9, Diff:  7.2, Sum: 85.1, Workers: 12
+[2021-05-25T22:10:12.609+0000][4.482s][13059][debug] GC(1)     Update RS (ms):           Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 12
+[2021-05-25T22:10:12.609+0000][4.482s][13059][debug] GC(1)       Processed Buffers:        Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 12
+[2021-05-25T22:10:12.609+0000][4.482s][13059][debug] GC(1)       Scanned Cards:            Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 12
+[2021-05-25T22:10:12.609+0000][4.482s][13059][debug] GC(1)       Skipped Cards:            Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 12
+[2021-05-25T22:10:12.609+0000][4.482s][13059][debug] GC(1)     Scan RS (ms):             Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 12
+[2021-05-25T22:10:12.609+0000][4.482s][13059][debug] GC(1)       Scanned Cards:            Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 12
+[2021-05-25T22:10:12.609+0000][4.482s][13059][debug] GC(1)       Claimed Cards:            Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 12
+[2021-05-25T22:10:12.609+0000][4.482s][13059][debug] GC(1)       Skipped Cards:            Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 12
+[2021-05-25T22:10:12.609+0000][4.482s][13059][debug] GC(1)     Code Root Scanning (ms):  Min:  0.0, Avg:  0.2, Max:  1.6, Diff:  1.6, Sum:  2.0, Workers: 12
+[2021-05-25T22:10:12.609+0000][4.482s][13059][debug] GC(1)     AOT Root Scanning (ms):   skipped
+[2021-05-25T22:10:12.609+0000][4.482s][13059][debug] GC(1)     Object Copy (ms):         Min:  0.1, Avg:  0.9, Max:  7.2, Diff:  7.1, Sum: 11.2, Workers: 12
+[2021-05-25T22:10:12.609+0000][4.482s][13059][debug] GC(1)     Termination (ms):         Min:  0.0, Avg:  1.4, Max:  1.7, Diff:  1.7, Sum: 17.2, Workers: 12
+[2021-05-25T22:10:12.609+0000][4.482s][13059][debug] GC(1)       Termination Attempts:     Min: 1, Avg:  1.0, Max: 1, Diff: 0, Sum: 12, Workers: 12
+[2021-05-25T22:10:12.609+0000][4.482s][13059][debug] GC(1)     GC Worker Other (ms):     Min:  0.1, Avg:  0.2, Max:  0.5, Diff:  0.5, Sum:  2.8, Workers: 12
+[2021-05-25T22:10:12.609+0000][4.482s][13059][debug] GC(1)     GC Worker Total (ms):     Min:  9.6, Avg:  9.9, Max: 10.1, Diff:  0.5, Sum: 118.3, Workers: 12
+[2021-05-25T22:10:12.609+0000][4.482s][13059][info ] GC(1)   Post Evacuate Collection Set: 1.6ms
+[2021-05-25T22:10:12.609+0000][4.482s][13059][debug] GC(1)     Code Roots Fixup: 0.1ms
+[2021-05-25T22:10:12.609+0000][4.482s][13059][debug] GC(1)     Clear Card Table: 0.1ms
+[2021-05-25T22:10:12.609+0000][4.482s][13059][debug] GC(1)     Reference Processing: 0.1ms
+[2021-05-25T22:10:12.609+0000][4.482s][13059][debug] GC(1)       Reconsider SoftReferences: 0.0ms
+[2021-05-25T22:10:12.609+0000][4.482s][13059][debug] GC(1)         SoftRef (ms):             skipped
+[2021-05-25T22:10:12.609+0000][4.482s][13059][debug] GC(1)       Notify Soft/WeakReferences: 0.1ms
+[2021-05-25T22:10:12.609+0000][4.482s][13059][debug] GC(1)         SoftRef (ms):             Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 1
+[2021-05-25T22:10:12.609+0000][4.482s][13059][debug] GC(1)         WeakRef (ms):             Min:  0.1, Avg:  0.1, Max:  0.1, Diff:  0.0, Sum:  0.1, Workers: 1
+[2021-05-25T22:10:12.609+0000][4.482s][13059][debug] GC(1)         FinalRef (ms):            Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 1
+[2021-05-25T22:10:12.609+0000][4.482s][13059][debug] GC(1)         Total (ms):               Min:  0.1, Avg:  0.1, Max:  0.1, Diff:  0.0, Sum:  0.1, Workers: 1
+[2021-05-25T22:10:12.609+0000][4.482s][13059][debug] GC(1)       Notify and keep alive finalizable: 0.0ms
+[2021-05-25T22:10:12.609+0000][4.482s][13059][debug] GC(1)         FinalRef (ms):            skipped
+[2021-05-25T22:10:12.609+0000][4.482s][13059][debug] GC(1)       Notify PhantomReferences: 0.0ms
+[2021-05-25T22:10:12.609+0000][4.482s][13059][debug] GC(1)         PhantomRef (ms):          Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 1
+[2021-05-25T22:10:12.609+0000][4.482s][13059][debug] GC(1)       SoftReference:
+[2021-05-25T22:10:12.609+0000][4.482s][13059][debug] GC(1)         Discovered: 0
+[2021-05-25T22:10:12.609+0000][4.482s][13059][debug] GC(1)         Cleared: 0
+[2021-05-25T22:10:12.609+0000][4.482s][13059][debug] GC(1)       WeakReference:
+[2021-05-25T22:10:12.609+0000][4.482s][13059][debug] GC(1)         Discovered: 670
+[2021-05-25T22:10:12.609+0000][4.482s][13059][debug] GC(1)         Cleared: 592
+[2021-05-25T22:10:12.609+0000][4.482s][13059][debug] GC(1)       FinalReference:
+[2021-05-25T22:10:12.609+0000][4.482s][13059][debug] GC(1)         Discovered: 2
+[2021-05-25T22:10:12.609+0000][4.482s][13059][debug] GC(1)         Cleared: 2
+[2021-05-25T22:10:12.609+0000][4.482s][13059][debug] GC(1)       PhantomReference:
+[2021-05-25T22:10:12.609+0000][4.482s][13059][debug] GC(1)         Discovered: 25
+[2021-05-25T22:10:12.609+0000][4.482s][13059][debug] GC(1)         Cleared: 4
+[2021-05-25T22:10:12.609+0000][4.482s][13059][debug] GC(1)     Weak Processing: 0.0ms
+[2021-05-25T22:10:12.609+0000][4.482s][13059][debug] GC(1)     Merge Per-Thread State: 0.0ms
+[2021-05-25T22:10:12.609+0000][4.482s][13059][debug] GC(1)     Code Roots Purge: 0.0ms
+[2021-05-25T22:10:12.609+0000][4.482s][13059][debug] GC(1)     Redirty Cards: 0.1ms
+[2021-05-25T22:10:12.609+0000][4.482s][13059][debug] GC(1)     DerivedPointerTable Update: 0.0ms
+[2021-05-25T22:10:12.609+0000][4.482s][13059][debug] GC(1)     Free Collection Set: 0.1ms
+[2021-05-25T22:10:12.609+0000][4.482s][13059][debug] GC(1)     Humongous Reclaim: 1.1ms
+[2021-05-25T22:10:12.609+0000][4.482s][13059][debug] GC(1)     Start New Collection Set: 0.0ms
+[2021-05-25T22:10:12.609+0000][4.482s][13059][debug] GC(1)     Resize TLABs: 0.0ms
+[2021-05-25T22:10:12.609+0000][4.482s][13059][debug] GC(1)     Expand Heap After Collection: 0.0ms
+[2021-05-25T22:10:12.609+0000][4.482s][13059][info ] GC(1)   Other: 0.6ms
+[2021-05-25T22:10:12.609+0000][4.482s][13059][info ] GC(1) Eden regions: 5->0(172)
+[2021-05-25T22:10:12.609+0000][4.482s][13059][info ] GC(1) Survivor regions: 4->4(39)
+[2021-05-25T22:10:12.609+0000][4.482s][13059][info ] GC(1) Old regions: 0->0
+[2021-05-25T22:10:12.609+0000][4.482s][13059][info ] GC(1) Humongous regions: 228->228
+[2021-05-25T22:10:12.609+0000][4.482s][13059][info ] GC(1) Metaspace: 15630K->15630K(1062912K)
+[2021-05-25T22:10:12.609+0000][4.482s][13059][debug] GC(1) Heap after GC invocations=2 (full 0): garbage-first heap   total 524288K, used 237430K [0x0000000780000000, 0x0000000800000000)
+[2021-05-25T22:10:12.609+0000][4.482s][13059][debug] GC(1)   region size 1024K, 4 young (4096K), 4 survivors (4096K)
+[2021-05-25T22:10:12.609+0000][4.482s][13059][debug] GC(1)  Metaspace       used 15630K, capacity 15986K, committed 16128K, reserved 1062912K
+[2021-05-25T22:10:12.609+0000][4.482s][13059][debug] GC(1)   class space    used 1552K, capacity 1698K, committed 1792K, reserved 1048576K
+[2021-05-25T22:10:12.610+0000][4.482s][13059][info ] GC(1) Pause Young (Concurrent Start) (G1 Humongous Allocation) 236M->231M(512M) 13.358ms
+[2021-05-25T22:10:12.610+0000][4.482s][13059][info ] GC(1) User=0.04s Sys=0.00s Real=0.02s
+[2021-05-25T22:10:12.610+0000][4.483s][20995][info ] GC(2) Concurrent Cycle
+[2021-05-25T22:10:12.610+0000][4.483s][20995][info ] GC(2) Concurrent Clear Claimed Marks
+[2021-05-25T22:10:12.610+0000][4.483s][20995][info ] GC(2) Concurrent Clear Claimed Marks 0.034ms
+[2021-05-25T22:10:12.610+0000][4.483s][20995][info ] GC(2) Concurrent Scan Root Regions
+[2021-05-25T22:10:12.610+0000][4.483s][20995][debug] GC(2) Running G1 Root Region Scan using 3 workers for 4 work units.
+[2021-05-25T22:10:12.611+0000][4.484s][20995][info ] GC(2) Concurrent Scan Root Regions 1.628ms
+[2021-05-25T22:10:12.611+0000][4.484s][20995][info ] GC(2) Concurrent Mark (4.484s)
+[2021-05-25T22:10:12.611+0000][4.484s][20995][info ] GC(2) Concurrent Mark From Roots
+[2021-05-25T22:10:12.611+0000][4.484s][20995][info ] GC(2) Using 3 workers of 3 for marking
+[2021-05-25T22:10:12.612+0000][4.485s][20995][debug] ---------------------------------------------------------------------
+[2021-05-25T22:10:12.612+0000][4.485s][20995][debug] Marking Stats, task = 0, calls = 1
+[2021-05-25T22:10:12.612+0000][4.485s][20995][debug]   Elapsed time = 0.67ms, Termination time = 0.00ms
+[2021-05-25T22:10:12.612+0000][4.485s][20995][debug]   Step Times (cum): num = 1, avg = 0.66ms, sd = 0.00ms max = 0.66ms, total = 0.66ms
+[2021-05-25T22:10:12.612+0000][4.485s][20995][debug]   Mark Stats Cache: hits 0 misses 25 ratio 0.000
+[2021-05-25T22:10:12.612+0000][4.485s][20995][debug] ---------------------------------------------------------------------
+[2021-05-25T22:10:12.612+0000][4.485s][20995][debug] Marking Stats, task = 1, calls = 1
+[2021-05-25T22:10:12.612+0000][4.485s][20995][debug]   Elapsed time = 0.66ms, Termination time = 0.00ms
+[2021-05-25T22:10:12.612+0000][4.485s][20995][debug]   Step Times (cum): num = 1, avg = 0.66ms, sd = 0.00ms max = 0.66ms, total = 0.66ms
+[2021-05-25T22:10:12.612+0000][4.485s][20995][debug]   Mark Stats Cache: hits 0 misses 0 ratio 0.000
+[2021-05-25T22:10:12.612+0000][4.485s][20995][debug] ---------------------------------------------------------------------
+[2021-05-25T22:10:12.612+0000][4.485s][20995][debug] Marking Stats, task = 2, calls = 1
+[2021-05-25T22:10:12.612+0000][4.485s][20995][debug]   Elapsed time = 0.65ms, Termination time = 0.00ms
+[2021-05-25T22:10:12.612+0000][4.485s][20995][debug]   Step Times (cum): num = 1, avg = 0.65ms, sd = 0.00ms max = 0.65ms, total = 0.65ms
+[2021-05-25T22:10:12.612+0000][4.485s][20995][debug]   Mark Stats Cache: hits 0 misses 0 ratio 0.000
+[2021-05-25T22:10:12.612+0000][4.485s][20995][debug] ---------------------------------------------------------------------
+[2021-05-25T22:10:12.612+0000][4.485s][20995][info ] GC(2) Concurrent Mark From Roots 0.919ms
+[2021-05-25T22:10:12.612+0000][4.485s][20995][info ] GC(2) Concurrent Preclean
+[2021-05-25T22:10:12.612+0000][4.485s][20995][debug] GC(2) Preclean SoftReferences
+[2021-05-25T22:10:12.612+0000][4.485s][20995][debug] GC(2) Preclean SoftReferences 0.025ms
+[2021-05-25T22:10:12.612+0000][4.485s][20995][debug] GC(2) Preclean WeakReferences
+[2021-05-25T22:10:12.612+0000][4.485s][20995][debug] GC(2) Preclean WeakReferences 0.019ms
+[2021-05-25T22:10:12.612+0000][4.485s][20995][debug] GC(2) Preclean FinalReferences
+[2021-05-25T22:10:12.612+0000][4.485s][20995][debug] GC(2) Preclean FinalReferences 0.019ms
+[2021-05-25T22:10:12.612+0000][4.485s][20995][debug] GC(2) Preclean PhantomReferences
+[2021-05-25T22:10:12.612+0000][4.485s][20995][debug] GC(2) Preclean PhantomReferences 0.019ms
+[2021-05-25T22:10:12.612+0000][4.485s][20995][info ] GC(2) Concurrent Preclean 0.143ms
+[2021-05-25T22:10:12.612+0000][4.485s][20995][info ] GC(2) Concurrent Mark (4.484s, 4.485s) 1.120ms
+[2021-05-25T22:10:12.613+0000][4.486s][13059][info ] GC(2) Pause Remark
+[2021-05-25T22:10:12.613+0000][4.486s][13059][debug] GC(2) Finalize Marking
+[2021-05-25T22:10:12.613+0000][4.486s][13059][debug] ---------------------------------------------------------------------
+[2021-05-25T22:10:12.613+0000][4.486s][13059][debug] Marking Stats, task = 0, calls = 54
+[2021-05-25T22:10:12.613+0000][4.486s][13059][debug]   Elapsed time = 0.06ms, Termination time = 0.04ms
+[2021-05-25T22:10:12.613+0000][4.486s][13059][debug]   Step Times (cum): num = 54, avg = 0.01ms, sd = 0.09ms max = 0.66ms, total = 0.74ms
+[2021-05-25T22:10:12.613+0000][4.486s][13059][debug]   Mark Stats Cache: hits 0 misses 26 ratio 0.000
+[2021-05-25T22:10:12.613+0000][4.486s][13059][debug] ---------------------------------------------------------------------
+[2021-05-25T22:10:12.613+0000][4.486s][13059][debug] Marking Stats, task = 1, calls = 2
+[2021-05-25T22:10:12.613+0000][4.486s][13059][debug]   Elapsed time = 0.06ms, Termination time = 0.04ms
+[2021-05-25T22:10:12.613+0000][4.486s][13059][debug]   Step Times (cum): num = 2, avg = 0.35ms, sd = 0.31ms max = 0.66ms, total = 0.71ms
+[2021-05-25T22:10:12.613+0000][4.486s][13059][debug]   Mark Stats Cache: hits 0 misses 0 ratio 0.000
+[2021-05-25T22:10:12.613+0000][4.486s][13059][debug] ---------------------------------------------------------------------
+[2021-05-25T22:10:12.613+0000][4.486s][13059][debug] Marking Stats, task = 2, calls = 2
+[2021-05-25T22:10:12.613+0000][4.486s][13059][debug]   Elapsed time = 0.06ms, Termination time = 0.04ms
+[2021-05-25T22:10:12.613+0000][4.486s][13059][debug]   Step Times (cum): num = 2, avg = 0.35ms, sd = 0.30ms max = 0.65ms, total = 0.70ms
+[2021-05-25T22:10:12.613+0000][4.486s][13059][debug]   Mark Stats Cache: hits 0 misses 0 ratio 0.000
+[2021-05-25T22:10:12.613+0000][4.486s][13059][debug] ---------------------------------------------------------------------
+[2021-05-25T22:10:12.613+0000][4.486s][13059][debug] Marking Stats, task = 3, calls = 1
+[2021-05-25T22:10:12.613+0000][4.486s][13059][debug]   Elapsed time = 0.04ms, Termination time = 0.01ms
+[2021-05-25T22:10:12.613+0000][4.486s][13059][debug]   Step Times (cum): num = 1, avg = 0.03ms, sd = 0.00ms max = 0.03ms, total = 0.03ms
+[2021-05-25T22:10:12.613+0000][4.486s][13059][debug]   Mark Stats Cache: hits 0 misses 0 ratio 0.000
+[2021-05-25T22:10:12.613+0000][4.486s][13059][debug] ---------------------------------------------------------------------
+[2021-05-25T22:10:12.613+0000][4.486s][13059][debug] Marking Stats, task = 4, calls = 1
+[2021-05-25T22:10:12.613+0000][4.486s][13059][debug]   Elapsed time = 0.04ms, Termination time = 0.00ms
+[2021-05-25T22:10:12.613+0000][4.486s][13059][debug]   Step Times (cum): num = 1, avg = 0.03ms, sd = 0.00ms max = 0.03ms, total = 0.03ms
+[2021-05-25T22:10:12.613+0000][4.486s][13059][debug]   Mark Stats Cache: hits 0 misses 0 ratio 0.000
+[2021-05-25T22:10:12.613+0000][4.486s][13059][debug] ---------------------------------------------------------------------
+[2021-05-25T22:10:12.613+0000][4.486s][13059][debug] Marking Stats, task = 5, calls = 1
+[2021-05-25T22:10:12.613+0000][4.486s][13059][debug]   Elapsed time = 0.06ms, Termination time = 0.04ms
+[2021-05-25T22:10:12.613+0000][4.486s][13059][debug]   Step Times (cum): num = 1, avg = 0.06ms, sd = 0.00ms max = 0.06ms, total = 0.06ms
+[2021-05-25T22:10:12.613+0000][4.486s][13059][debug]   Mark Stats Cache: hits 0 misses 0 ratio 0.000
+[2021-05-25T22:10:12.613+0000][4.486s][13059][debug] ---------------------------------------------------------------------
+[2021-05-25T22:10:12.613+0000][4.486s][13059][debug] Marking Stats, task = 6, calls = 1
+[2021-05-25T22:10:12.613+0000][4.486s][13059][debug]   Elapsed time = 0.06ms, Termination time = 0.05ms
+[2021-05-25T22:10:12.613+0000][4.486s][13059][debug]   Step Times (cum): num = 1, avg = 0.06ms, sd = 0.00ms max = 0.06ms, total = 0.06ms
+[2021-05-25T22:10:12.613+0000][4.486s][13059][debug]   Mark Stats Cache: hits 0 misses 0 ratio 0.000
+[2021-05-25T22:10:12.613+0000][4.486s][13059][debug] ---------------------------------------------------------------------
+[2021-05-25T22:10:12.613+0000][4.486s][13059][debug] Marking Stats, task = 7, calls = 1
+[2021-05-25T22:10:12.613+0000][4.486s][13059][debug]   Elapsed time = 0.05ms, Termination time = 0.04ms
+[2021-05-25T22:10:12.613+0000][4.486s][13059][debug]   Step Times (cum): num = 1, avg = 0.05ms, sd = 0.00ms max = 0.05ms, total = 0.05ms
+[2021-05-25T22:10:12.613+0000][4.486s][13059][debug]   Mark Stats Cache: hits 0 misses 0 ratio 0.000
+[2021-05-25T22:10:12.613+0000][4.486s][13059][debug] ---------------------------------------------------------------------
+[2021-05-25T22:10:12.613+0000][4.486s][13059][debug] Marking Stats, task = 8, calls = 1
+[2021-05-25T22:10:12.613+0000][4.486s][13059][debug]   Elapsed time = 0.03ms, Termination time = 0.01ms
+[2021-05-25T22:10:12.613+0000][4.486s][13059][debug]   Step Times (cum): num = 1, avg = 0.02ms, sd = 0.00ms max = 0.02ms, total = 0.02ms
+[2021-05-25T22:10:12.613+0000][4.486s][13059][debug]   Mark Stats Cache: hits 0 misses 0 ratio 0.000
+[2021-05-25T22:10:12.613+0000][4.486s][13059][debug] ---------------------------------------------------------------------
+[2021-05-25T22:10:12.613+0000][4.486s][13059][debug] Marking Stats, task = 9, calls = 1
+[2021-05-25T22:10:12.613+0000][4.486s][13059][debug]   Elapsed time = 0.02ms, Termination time = 0.01ms
+[2021-05-25T22:10:12.613+0000][4.486s][13059][debug]   Step Times (cum): num = 1, avg = 0.02ms, sd = 0.00ms max = 0.02ms, total = 0.02ms
+[2021-05-25T22:10:12.613+0000][4.486s][13059][debug]   Mark Stats Cache: hits 0 misses 0 ratio 0.000
+[2021-05-25T22:10:12.613+0000][4.486s][13059][debug] ---------------------------------------------------------------------
+[2021-05-25T22:10:12.613+0000][4.486s][13059][debug] Marking Stats, task = 10, calls = 1
+[2021-05-25T22:10:12.613+0000][4.486s][13059][debug]   Elapsed time = 0.02ms, Termination time = 0.00ms
+[2021-05-25T22:10:12.613+0000][4.486s][13059][debug]   Step Times (cum): num = 1, avg = 0.01ms, sd = 0.00ms max = 0.01ms, total = 0.01ms
+[2021-05-25T22:10:12.613+0000][4.486s][13059][debug]   Mark Stats Cache: hits 0 misses 0 ratio 0.000
+[2021-05-25T22:10:12.613+0000][4.486s][13059][debug] ---------------------------------------------------------------------
+[2021-05-25T22:10:12.613+0000][4.486s][13059][debug] Marking Stats, task = 11, calls = 1
+[2021-05-25T22:10:12.613+0000][4.486s][13059][debug]   Elapsed time = 0.02ms, Termination time = 0.00ms
+[2021-05-25T22:10:12.613+0000][4.486s][13059][debug]   Step Times (cum): num = 1, avg = 0.01ms, sd = 0.00ms max = 0.01ms, total = 0.01ms
+[2021-05-25T22:10:12.613+0000][4.486s][13059][debug]   Mark Stats Cache: hits 0 misses 0 ratio 0.000
+[2021-05-25T22:10:12.613+0000][4.486s][13059][debug] ---------------------------------------------------------------------
+[2021-05-25T22:10:12.613+0000][4.486s][13059][debug] GC(2) Finalize Marking 0.866ms
+[2021-05-25T22:10:12.613+0000][4.486s][13059][debug] GC(2) Reference Processing
+[2021-05-25T22:10:12.614+0000][4.486s][13059][debug] GC(2) Skipped phase1 of Reference Processing due to unavailable references
+[2021-05-25T22:10:12.614+0000][4.486s][13059][debug] GC(2) Skipped phase2 of Reference Processing due to unavailable references
+[2021-05-25T22:10:12.614+0000][4.486s][13059][debug] GC(2) Skipped phase3 of Reference Processing due to unavailable references
+[2021-05-25T22:10:12.614+0000][4.486s][13059][debug] GC(2) Skipped phase4 of Reference Processing due to unavailable references
+[2021-05-25T22:10:12.614+0000][4.487s][13059][debug] GC(2) Reference Processing: 0.0ms
+[2021-05-25T22:10:12.614+0000][4.487s][13059][debug] GC(2)   Reconsider SoftReferences: 0.0ms
+[2021-05-25T22:10:12.614+0000][4.487s][13059][debug] GC(2)     SoftRef (ms):             skipped
+[2021-05-25T22:10:12.614+0000][4.487s][13059][debug] GC(2)   Notify Soft/WeakReferences: 0.0ms
+[2021-05-25T22:10:12.614+0000][4.487s][13059][debug] GC(2)     SoftRef (ms):             skipped
+[2021-05-25T22:10:12.614+0000][4.487s][13059][debug] GC(2)     WeakRef (ms):             skipped
+[2021-05-25T22:10:12.614+0000][4.487s][13059][debug] GC(2)     FinalRef (ms):            skipped
+[2021-05-25T22:10:12.614+0000][4.487s][13059][debug] GC(2)     Total (ms):               skipped
+[2021-05-25T22:10:12.614+0000][4.487s][13059][debug] GC(2)   Notify and keep alive finalizable: 0.0ms
+[2021-05-25T22:10:12.614+0000][4.487s][13059][debug] GC(2)     FinalRef (ms):            skipped
+[2021-05-25T22:10:12.614+0000][4.487s][13059][debug] GC(2)   Notify PhantomReferences: 0.0ms
+[2021-05-25T22:10:12.614+0000][4.487s][13059][debug] GC(2)     PhantomRef (ms):          skipped
+[2021-05-25T22:10:12.614+0000][4.487s][13059][debug] GC(2)   SoftReference:
+[2021-05-25T22:10:12.614+0000][4.487s][13059][debug] GC(2)     Discovered: 0
+[2021-05-25T22:10:12.614+0000][4.487s][13059][debug] GC(2)     Cleared: 0
+[2021-05-25T22:10:12.614+0000][4.487s][13059][debug] GC(2)   WeakReference:
+[2021-05-25T22:10:12.614+0000][4.487s][13059][debug] GC(2)     Discovered: 0
+[2021-05-25T22:10:12.614+0000][4.487s][13059][debug] GC(2)     Cleared: 0
+[2021-05-25T22:10:12.614+0000][4.487s][13059][debug] GC(2)   FinalReference:
+[2021-05-25T22:10:12.614+0000][4.487s][13059][debug] GC(2)     Discovered: 0
+[2021-05-25T22:10:12.614+0000][4.487s][13059][debug] GC(2)     Cleared: 0
+[2021-05-25T22:10:12.614+0000][4.487s][13059][debug] GC(2)   PhantomReference:
+[2021-05-25T22:10:12.614+0000][4.487s][13059][debug] GC(2)     Discovered: 0
+[2021-05-25T22:10:12.614+0000][4.487s][13059][debug] GC(2)     Cleared: 0
+[2021-05-25T22:10:12.614+0000][4.487s][13059][debug] GC(2) Reference Processing 0.375ms
+[2021-05-25T22:10:12.614+0000][4.487s][13059][debug] GC(2) Weak Processing
+[2021-05-25T22:10:12.614+0000][4.487s][13059][debug] GC(2) Weak Processing 0.029ms
+[2021-05-25T22:10:12.614+0000][4.487s][13059][debug] GC(2) Class Unloading
+[2021-05-25T22:10:12.614+0000][4.487s][13059][debug] GC(2) ClassLoaderData
+[2021-05-25T22:10:12.615+0000][4.488s][13059][debug] GC(2) ClassLoaderData 0.899ms
+[2021-05-25T22:10:12.615+0000][4.488s][13059][debug] GC(2) ProtectionDomainCacheTable
+[2021-05-25T22:10:12.615+0000][4.488s][13059][debug] GC(2) ProtectionDomainCacheTable 0.029ms
+[2021-05-25T22:10:12.616+0000][4.489s][13059][info ] GC(2) Cleaned string and symbol table, strings: 7312 processed, 0 removed, symbols: 50754 processed, 7 removed
+[2021-05-25T22:10:12.616+0000][4.489s][13059][debug] GC(2) Class Unloading 1.864ms
+[2021-05-25T22:10:12.616+0000][4.489s][13059][debug] GC(2) Flush Task Caches
+[2021-05-25T22:10:12.616+0000][4.489s][13059][debug] Mark stats cache hits 0 misses 26 ratio 0.000
+[2021-05-25T22:10:12.616+0000][4.489s][13059][debug] GC(2) Flush Task Caches 0.061ms
+[2021-05-25T22:10:12.616+0000][4.489s][13059][debug] GC(2) Update Remembered Set Tracking Before Rebuild
+[2021-05-25T22:10:12.616+0000][4.489s][13059][debug] GC(2) Running G1 Update RemSet Tracking Before Rebuild using 2 workers for 512 regions in heap
+[2021-05-25T22:10:12.616+0000][4.489s][13059][debug] GC(2) Remembered Set Tracking update regions total 512, selected 0
+[2021-05-25T22:10:12.616+0000][4.489s][13059][debug] GC(2) Update Remembered Set Tracking Before Rebuild 0.132ms
+[2021-05-25T22:10:12.616+0000][4.489s][13059][debug] GC(2) Reclaim Empty Regions
+[2021-05-25T22:10:12.616+0000][4.489s][13059][debug] GC(2) Reclaimed 124 empty regions
+[2021-05-25T22:10:12.616+0000][4.489s][13059][debug] GC(2) Reclaim Empty Regions 0.239ms
+[2021-05-25T22:10:12.616+0000][4.489s][13059][debug] GC(2) Purge Metaspace
+[2021-05-25T22:10:12.616+0000][4.489s][13059][debug] GC(2) Purge Metaspace 0.014ms
+[2021-05-25T22:10:12.616+0000][4.489s][13059][debug] GC(2) Report Object Count
+[2021-05-25T22:10:12.616+0000][4.489s][13059][debug] GC(2) Report Object Count 0.017ms
+[2021-05-25T22:10:12.616+0000][4.489s][13059][info ] GC(2) Pause Remark 236M->112M(512M) 3.788ms
+[2021-05-25T22:10:12.616+0000][4.489s][13059][info ] GC(2) User=0.01s Sys=0.01s Real=0.00s
+[2021-05-25T22:10:12.616+0000][4.489s][20995][info ] GC(2) Concurrent Rebuild Remembered Sets
+[2021-05-25T22:10:12.617+0000][4.490s][20995][info ] GC(2) Concurrent Rebuild Remembered Sets 0.143ms
+[2021-05-25T22:10:12.617+0000][4.490s][13059][info ] GC(2) Pause Cleanup
+[2021-05-25T22:10:12.617+0000][4.490s][13059][debug] GC(2) Update Remembered Set Tracking After Rebuild
+[2021-05-25T22:10:12.617+0000][4.490s][13059][debug] GC(2) Update Remembered Set Tracking After Rebuild 0.038ms
+[2021-05-25T22:10:12.617+0000][4.490s][13059][debug] GC(2) Finalize Concurrent Mark Cleanup
+[2021-05-25T22:10:12.617+0000][4.490s][13059][debug] GC(2) request young-only gcs (candidate old regions not available)
+[2021-05-25T22:10:12.617+0000][4.490s][13059][debug] GC(2) Finalize Concurrent Mark Cleanup 0.146ms
+[2021-05-25T22:10:12.617+0000][4.490s][13059][info ] GC(2) Pause Cleanup 112M->112M(512M) 0.266ms
+[2021-05-25T22:10:12.617+0000][4.490s][13059][info ] GC(2) User=0.00s Sys=0.00s Real=0.00s
+[2021-05-25T22:10:12.617+0000][4.490s][20995][info ] GC(2) Concurrent Cleanup for Next Mark
+[2021-05-25T22:10:12.617+0000][4.490s][20995][debug] GC(2) Running G1 Clear Bitmap with 3 workers for 8 work units.
+[2021-05-25T22:10:12.621+0000][4.494s][20995][info ] GC(2) Concurrent Cleanup for Next Mark 3.760ms
+[2021-05-25T22:10:12.621+0000][4.494s][20995][info ] GC(2) Concurrent Cycle 11.276ms
+[2021-05-25T22:10:14.304+0000][6.177s][35331][debug] Request concurrent cycle initiation (occupancy higher than threshold) occupancy: 239075328B allocation request: 3145744B threshold: 241591910B (45.00) source: concurrent humongous allocation
+[2021-05-25T22:10:14.304+0000][6.177s][13059][debug] Request concurrent cycle initiation (requested by GC cause). GC cause: G1 Humongous Allocation
+[2021-05-25T22:10:14.304+0000][6.177s][13059][debug] GC(3) Heap before GC invocations=3 (full 0): garbage-first heap   total 524288K, used 237430K [0x0000000780000000, 0x0000000800000000)
+[2021-05-25T22:10:14.304+0000][6.177s][13059][debug] GC(3)   region size 1024K, 5 young (5120K), 4 survivors (4096K)
+[2021-05-25T22:10:14.304+0000][6.177s][13059][debug] GC(3)  Metaspace       used 15630K, capacity 15986K, committed 16128K, reserved 1062912K
+[2021-05-25T22:10:14.304+0000][6.177s][13059][debug] GC(3)   class space    used 1552K, capacity 1698K, committed 1792K, reserved 1048576K
+[2021-05-25T22:10:14.304+0000][6.177s][13059][debug] GC(3) Initiate concurrent cycle (concurrent cycle initiation requested)
+[2021-05-25T22:10:14.304+0000][6.177s][13059][info ] GC(3) Pause Young (Concurrent Start) (G1 Humongous Allocation)
+[2021-05-25T22:10:14.304+0000][6.177s][13059][info ] GC(3) Using 12 workers of 13 for evacuation
+[2021-05-25T22:10:14.304+0000][6.177s][13059][debug] GC(3) TLAB totals: thrds: 2  refills: 2 max: 1 slow allocs: 31 max 31 waste: 95.3% gc: 783032B max: 486144B slow: 0B max: 0B fast: 0B max: 0B
+[2021-05-25T22:10:14.304+0000][6.177s][13059][debug] GC(3) Mutator Allocation stats, regions: 1, wasted size: 0B ( 0.0%)
+[2021-05-25T22:10:14.304+0000][6.177s][13059][debug] GC(3) Desired survivor size 11534336 bytes, new threshold 15 (max threshold 15)
+[2021-05-25T22:10:14.304+0000][6.177s][13059][debug] GC(3) Finish choosing CSet. old: 0 regions, predicted old region time: 0.00ms, time remaining: 171.43
+[2021-05-25T22:10:14.304+0000][6.177s][13059][debug] GC(3) GC Termination Stats
+[2021-05-25T22:10:14.304+0000][6.177s][13059][debug] GC(3)      elapsed  --strong roots-- -------termination------- ------waste (KiB)------
+[2021-05-25T22:10:14.304+0000][6.177s][13059][debug] GC(3) thr     ms        ms      %        ms      %    attempts  total   alloc    undo
+[2021-05-25T22:10:14.304+0000][6.177s][13059][debug] GC(3) --- --------- --------- ------ --------- ------ -------- ------- ------- -------
+[2021-05-25T22:10:14.312+0000][6.185s][21251][debug] GC(3)   4      8.15      8.14  99.89      0.00   0.00        1       0       0       0
+[2021-05-25T22:10:14.313+0000][6.185s][40451][debug] GC(3)   3      8.22      7.62  92.65      0.60   7.24        1       0       0       0
+[2021-05-25T22:10:14.313+0000][6.186s][25347][debug] GC(3)   1      8.29      7.93  95.66      0.32   3.89        1       3       3       0
+[2021-05-25T22:10:14.313+0000][6.186s][24835][debug] GC(3)   5      8.33      7.37  88.47      0.84  10.11        1       0       0       0
+[2021-05-25T22:10:14.313+0000][6.186s][38659][debug] GC(3)  10      8.37      7.40  88.38      0.89  10.65        1       0       0       0
+[2021-05-25T22:10:14.313+0000][6.186s][39427][debug] GC(3)   6      8.45      7.64  90.48      0.63   7.41        1       0       0       0
+[2021-05-25T22:10:14.313+0000][6.186s][37891][debug] GC(3)  11      8.48      7.35  86.64      0.91  10.78        1       0       0       0
+[2021-05-25T22:10:14.313+0000][6.186s][26883][debug] GC(3)   2      8.56      7.39  86.39      0.90  10.47        1       0       0       0
+[2021-05-25T22:10:14.313+0000][6.186s][26627][debug] GC(3)   8      8.57      7.36  85.83      0.89  10.35        1       0       0       0
+[2021-05-25T22:10:14.313+0000][6.186s][39171][debug] GC(3)   9      8.60      7.40  86.08      0.88  10.19        1       0       0       0
+[2021-05-25T22:10:14.313+0000][6.186s][39939][debug] GC(3)   0      8.66      7.38  85.13      0.86   9.96        1       0       0       0
+[2021-05-25T22:10:14.313+0000][6.186s][25859][debug] GC(3)   7      8.70      7.36  84.57      0.86   9.90        1       0       0       0
+[2021-05-25T22:10:14.313+0000][6.186s][13059][debug] GC(3) Running G1 Clear Card Table Task using 1 workers for 1 units of work for 5 regions.
+[2021-05-25T22:10:14.313+0000][6.186s][13059][debug] GC(3) Skipped phase1 of Reference Processing due to unavailable references
+[2021-05-25T22:10:14.313+0000][6.186s][13059][debug] GC(3) Skipped phase3 of Reference Processing due to unavailable references
+[2021-05-25T22:10:14.313+0000][6.186s][13059][debug] GC(3) Running G1 Free Collection Set using 1 workers for collection set length 5
+[2021-05-25T22:10:14.313+0000][6.186s][13059][debug] GC(3) Live humongous region 0 object size 3145744 start 0x0000000780000000  with remset 0 code roots 0 is marked 0 reclaim candidate 0 type array 1
+[2021-05-25T22:10:14.314+0000][6.186s][13059][debug] GC(3) Live humongous region 4 object size 3145744 start 0x0000000780400000  with remset 0 code roots 0 is marked 0 reclaim candidate 0 type array 1
+[2021-05-25T22:10:14.314+0000][6.186s][13059][debug] GC(3) Live humongous region 8 object size 3145744 start 0x0000000780800000  with remset 0 code roots 0 is marked 0 reclaim candidate 0 type array 1
+[2021-05-25T22:10:14.314+0000][6.186s][13059][debug] GC(3) Live humongous region 12 object size 3145744 start 0x0000000780c00000  with remset 0 code roots 0 is marked 0 reclaim candidate 0 type array 1
+[2021-05-25T22:10:14.314+0000][6.186s][13059][debug] GC(3) Live humongous region 16 object size 3145744 start 0x0000000781000000  with remset 0 code roots 0 is marked 0 reclaim candidate 0 type array 1
+[2021-05-25T22:10:14.314+0000][6.187s][13059][debug] GC(3) Live humongous region 20 object size 3145744 start 0x0000000781400000  with remset 0 code roots 0 is marked 0 reclaim candidate 0 type array 1
+[2021-05-25T22:10:14.314+0000][6.187s][13059][debug] GC(3) Live humongous region 24 object size 3145744 start 0x0000000781800000  with remset 0 code roots 0 is marked 0 reclaim candidate 0 type array 1
+[2021-05-25T22:10:14.314+0000][6.187s][13059][debug] GC(3) Live humongous region 28 object size 3145744 start 0x0000000781c00000  with remset 0 code roots 0 is marked 0 reclaim candidate 0 type array 1
+[2021-05-25T22:10:14.314+0000][6.187s][13059][debug] GC(3) Live humongous region 32 object size 3145744 start 0x0000000782000000  with remset 0 code roots 0 is marked 0 reclaim candidate 0 type array 1
+[2021-05-25T22:10:14.314+0000][6.187s][13059][debug] GC(3) Live humongous region 36 object size 3145744 start 0x0000000782400000  with remset 0 code roots 0 is marked 0 reclaim candidate 0 type array 1
+[2021-05-25T22:10:14.314+0000][6.187s][13059][debug] GC(3) Live humongous region 40 object size 3145744 start 0x0000000782800000  with remset 0 code roots 0 is marked 0 reclaim candidate 0 type array 1
+[2021-05-25T22:10:14.314+0000][6.187s][13059][debug] GC(3) Live humongous region 44 object size 3145744 start 0x0000000782c00000  with remset 0 code roots 0 is marked 0 reclaim candidate 0 type array 1
+[2021-05-25T22:10:14.314+0000][6.187s][13059][debug] GC(3) Live humongous region 48 object size 3145744 start 0x0000000783000000  with remset 0 code roots 0 is marked 0 reclaim candidate 0 type array 1
+[2021-05-25T22:10:14.314+0000][6.187s][13059][debug] GC(3) Live humongous region 52 object size 3145744 start 0x0000000783400000  with remset 0 code roots 0 is marked 0 reclaim candidate 0 type array 1
+[2021-05-25T22:10:14.314+0000][6.187s][13059][debug] GC(3) Live humongous region 56 object size 3145744 start 0x0000000783800000  with remset 0 code roots 0 is marked 0 reclaim candidate 0 type array 1
+[2021-05-25T22:10:14.314+0000][6.187s][13059][debug] GC(3) Live humongous region 60 object size 3145744 start 0x0000000783c00000  with remset 0 code roots 0 is marked 0 reclaim candidate 0 type array 1
+[2021-05-25T22:10:14.314+0000][6.187s][13059][debug] GC(3) Live humongous region 64 object size 3145744 start 0x0000000784000000  with remset 0 code roots 0 is marked 0 reclaim candidate 0 type array 1
+[2021-05-25T22:10:14.314+0000][6.187s][13059][debug] GC(3) Live humongous region 68 object size 3145744 start 0x0000000784400000  with remset 0 code roots 0 is marked 0 reclaim candidate 0 type array 1
+[2021-05-25T22:10:14.314+0000][6.187s][13059][debug] GC(3) Live humongous region 72 object size 3145744 start 0x0000000784800000  with remset 0 code roots 0 is marked 0 reclaim candidate 0 type array 1
+[2021-05-25T22:10:14.314+0000][6.187s][13059][debug] GC(3) Live humongous region 76 object size 3145744 start 0x0000000784c00000  with remset 0 code roots 0 is marked 0 reclaim candidate 0 type array 1
+[2021-05-25T22:10:14.314+0000][6.187s][13059][debug] GC(3) Live humongous region 80 object size 3145744 start 0x0000000785000000  with remset 0 code roots 0 is marked 0 reclaim candidate 0 type array 1
+[2021-05-25T22:10:14.314+0000][6.187s][13059][debug] GC(3) Live humongous region 84 object size 3145744 start 0x0000000785400000  with remset 0 code roots 0 is marked 0 reclaim candidate 0 type array 1
+[2021-05-25T22:10:14.314+0000][6.187s][13059][debug] GC(3) Live humongous region 88 object size 3145744 start 0x0000000785800000  with remset 0 code roots 0 is marked 0 reclaim candidate 0 type array 1
+[2021-05-25T22:10:14.314+0000][6.187s][13059][debug] GC(3) Live humongous region 92 object size 3145744 start 0x0000000785c00000  with remset 0 code roots 0 is marked 0 reclaim candidate 0 type array 1
+[2021-05-25T22:10:14.314+0000][6.187s][13059][debug] GC(3) Live humongous region 96 object size 3145744 start 0x0000000786000000  with remset 0 code roots 0 is marked 0 reclaim candidate 0 type array 1
+[2021-05-25T22:10:14.314+0000][6.187s][13059][debug] GC(3) Live humongous region 100 object size 3145744 start 0x0000000786400000  with remset 0 code roots 0 is marked 0 reclaim candidate 0 type array 1
+[2021-05-25T22:10:14.314+0000][6.187s][13059][debug] GC(3) Live humongous region 104 object size 3145744 start 0x0000000786800000  with remset 0 code roots 0 is marked 0 reclaim candidate 0 type array 1
+[2021-05-25T22:10:14.314+0000][6.187s][13059][debug] GC(3) Live humongous region 108 object size 3145744 start 0x0000000786c00000  with remset 0 code roots 0 is marked 0 reclaim candidate 0 type array 1
+[2021-05-25T22:10:14.314+0000][6.187s][13059][debug] GC(3) Live humongous region 112 object size 3145744 start 0x0000000787000000  with remset 0 code roots 0 is marked 0 reclaim candidate 0 type array 1
+[2021-05-25T22:10:14.314+0000][6.187s][13059][debug] GC(3) Live humongous region 116 object size 3145744 start 0x0000000787400000  with remset 0 code roots 0 is marked 0 reclaim candidate 0 type array 1
+[2021-05-25T22:10:14.314+0000][6.187s][13059][debug] GC(3) Live humongous region 124 object size 3145744 start 0x0000000787c00000  with remset 0 code roots 0 is marked 0 reclaim candidate 0 type array 1
+[2021-05-25T22:10:14.314+0000][6.187s][13059][debug] GC(3) Live humongous region 128 object size 3145744 start 0x0000000788000000  with remset 0 code roots 0 is marked 0 reclaim candidate 0 type array 1
+[2021-05-25T22:10:14.314+0000][6.187s][13059][debug] GC(3) Live humongous region 132 object size 3145744 start 0x0000000788400000  with remset 0 code roots 0 is marked 0 reclaim candidate 0 type array 1
+[2021-05-25T22:10:14.314+0000][6.187s][13059][debug] GC(3) Live humongous region 136 object size 3145744 start 0x0000000788800000  with remset 0 code roots 0 is marked 0 reclaim candidate 0 type array 1
+[2021-05-25T22:10:14.314+0000][6.187s][13059][debug] GC(3) Live humongous region 140 object size 3145744 start 0x0000000788c00000  with remset 0 code roots 0 is marked 0 reclaim candidate 0 type array 1
+[2021-05-25T22:10:14.314+0000][6.187s][13059][debug] GC(3) Live humongous region 144 object size 3145744 start 0x0000000789000000  with remset 0 code roots 0 is marked 0 reclaim candidate 0 type array 1
+[2021-05-25T22:10:14.314+0000][6.187s][13059][debug] GC(3) Live humongous region 148 object size 3145744 start 0x0000000789400000  with remset 0 code roots 0 is marked 0 reclaim candidate 0 type array 1
+[2021-05-25T22:10:14.314+0000][6.187s][13059][debug] GC(3) Live humongous region 152 object size 3145744 start 0x0000000789800000  with remset 0 code roots 0 is marked 0 reclaim candidate 0 type array 1
+[2021-05-25T22:10:14.314+0000][6.187s][13059][debug] GC(3) Live humongous region 156 object size 3145744 start 0x0000000789c00000  with remset 0 code roots 0 is marked 0 reclaim candidate 0 type array 1
+[2021-05-25T22:10:14.314+0000][6.187s][13059][debug] GC(3) Live humongous region 160 object size 3145744 start 0x000000078a000000  with remset 0 code roots 0 is marked 0 reclaim candidate 0 type array 1
+[2021-05-25T22:10:14.314+0000][6.187s][13059][debug] GC(3) Live humongous region 164 object size 3145744 start 0x000000078a400000  with remset 0 code roots 0 is marked 0 reclaim candidate 0 type array 1
+[2021-05-25T22:10:14.314+0000][6.187s][13059][debug] GC(3) Live humongous region 168 object size 3145744 start 0x000000078a800000  with remset 0 code roots 0 is marked 0 reclaim candidate 0 type array 1
+[2021-05-25T22:10:14.314+0000][6.187s][13059][debug] GC(3) Live humongous region 172 object size 3145744 start 0x000000078ac00000  with remset 0 code roots 0 is marked 0 reclaim candidate 0 type array 1
+[2021-05-25T22:10:14.314+0000][6.187s][13059][debug] GC(3) Live humongous region 176 object size 3145744 start 0x000000078b000000  with remset 0 code roots 0 is marked 0 reclaim candidate 0 type array 1
+[2021-05-25T22:10:14.314+0000][6.187s][13059][debug] GC(3) Live humongous region 180 object size 3145744 start 0x000000078b400000  with remset 0 code roots 0 is marked 0 reclaim candidate 0 type array 1
+[2021-05-25T22:10:14.314+0000][6.187s][13059][debug] GC(3) Live humongous region 184 object size 3145744 start 0x000000078b800000  with remset 0 code roots 0 is marked 0 reclaim candidate 0 type array 1
+[2021-05-25T22:10:14.314+0000][6.187s][13059][debug] GC(3) Live humongous region 188 object size 3145744 start 0x000000078bc00000  with remset 0 code roots 0 is marked 0 reclaim candidate 0 type array 1
+[2021-05-25T22:10:14.314+0000][6.187s][13059][debug] GC(3) Live humongous region 192 object size 3145744 start 0x000000078c000000  with remset 0 code roots 0 is marked 0 reclaim candidate 0 type array 1
+[2021-05-25T22:10:14.314+0000][6.187s][13059][debug] GC(3) Live humongous region 196 object size 3145744 start 0x000000078c400000  with remset 0 code roots 0 is marked 0 reclaim candidate 0 type array 1
+[2021-05-25T22:10:14.314+0000][6.187s][13059][debug] GC(3) Live humongous region 200 object size 3145744 start 0x000000078c800000  with remset 0 code roots 0 is marked 0 reclaim candidate 0 type array 1
+[2021-05-25T22:10:14.314+0000][6.187s][13059][debug] GC(3) Live humongous region 204 object size 3145744 start 0x000000078cc00000  with remset 0 code roots 0 is marked 0 reclaim candidate 0 type array 1
+[2021-05-25T22:10:14.314+0000][6.187s][13059][debug] GC(3) Live humongous region 208 object size 3145744 start 0x000000078d000000  with remset 0 code roots 0 is marked 0 reclaim candidate 0 type array 1
+[2021-05-25T22:10:14.314+0000][6.187s][13059][debug] GC(3) Live humongous region 212 object size 3145744 start 0x000000078d400000  with remset 0 code roots 0 is marked 0 reclaim candidate 0 type array 1
+[2021-05-25T22:10:14.314+0000][6.187s][13059][debug] GC(3) Live humongous region 216 object size 3145744 start 0x000000078d800000  with remset 0 code roots 0 is marked 0 reclaim candidate 0 type array 1
+[2021-05-25T22:10:14.314+0000][6.187s][13059][debug] GC(3) Live humongous region 220 object size 3145744 start 0x000000078dc00000  with remset 0 code roots 0 is marked 0 reclaim candidate 0 type array 1
+[2021-05-25T22:10:14.314+0000][6.187s][13059][debug] GC(3) Live humongous region 224 object size 3145744 start 0x000000078e000000  with remset 0 code roots 0 is marked 0 reclaim candidate 0 type array 1
+[2021-05-25T22:10:14.314+0000][6.187s][13059][debug] GC(3) Live humongous region 228 object size 3145744 start 0x000000078e400000  with remset 0 code roots 0 is marked 0 reclaim candidate 0 type array 1
+[2021-05-25T22:10:14.314+0000][6.187s][13059][debug] GC(3) Young PLAB allocation: allocated: 3959008B, wasted: 4168B, unused: 339544B, used: 3615296B, undo waste: 0B, 
+[2021-05-25T22:10:14.314+0000][6.187s][13059][debug] GC(3) Young other allocation: region end waste: 0B, regions filled: 4, direct allocated: 99104B, failure used: 0B, failure wasted: 0B
+[2021-05-25T22:10:14.314+0000][6.187s][13059][debug] GC(3) Young sizing: calculated: 723056B, actual: 713360B
+[2021-05-25T22:10:14.314+0000][6.187s][13059][debug] GC(3) Old PLAB allocation: allocated: 0B, wasted: 0B, unused: 0B, used: 0B, undo waste: 0B, 
+[2021-05-25T22:10:14.314+0000][6.187s][13059][debug] GC(3) Old other allocation: region end waste: 0B, regions filled: 0, direct allocated: 0B, failure used: 0B, failure wasted: 0B
+[2021-05-25T22:10:14.314+0000][6.187s][13059][debug] GC(3) Old sizing: calculated: 0B, actual: 2064B
+[2021-05-25T22:10:14.314+0000][6.187s][13059][debug] GC(3) Basic information (value update), threshold: 241591910B (45.00), target occupancy: 536870912B, current occupancy: 243133440B, recent allocation size: 130023424B, recent allocation duration: 1691.54ms, recent old gen allocation rate: 76866672.18B/s, recent marking phase length: 0.00ms
+[2021-05-25T22:10:14.314+0000][6.187s][13059][debug] GC(3) Adaptive IHOP information (value update), threshold: 241591910B (47.37), internal target occupancy: 510027366B, occupancy: 243133440B, additional buffer size: 76546048B, predicted old gen allocation rate: 18146384.38B/s, predicted marking phase length: 0.00ms, prediction active: false
+[2021-05-25T22:10:14.314+0000][6.187s][13059][debug] GC(3) Updated Refinement Zones: green: 13, yellow: 39, red: 65
+[2021-05-25T22:10:14.314+0000][6.187s][13059][info ] GC(3)   Pre Evacuate Collection Set: 0.1ms
+[2021-05-25T22:10:14.314+0000][6.187s][13059][debug] GC(3)     Prepare TLABs: 0.0ms
+[2021-05-25T22:10:14.314+0000][6.187s][13059][debug] GC(3)     Choose Collection Set: 0.0ms
+[2021-05-25T22:10:14.314+0000][6.187s][13059][debug] GC(3)     Humongous Register: 0.0ms
+[2021-05-25T22:10:14.314+0000][6.187s][13059][debug] GC(3)     Clear Claimed Marks: 0.0ms
+[2021-05-25T22:10:14.314+0000][6.187s][13059][info ] GC(3)   Evacuate Collection Set: 8.8ms
+[2021-05-25T22:10:14.314+0000][6.187s][13059][debug] GC(3)     Ext Root Scanning (ms):   Min:  0.7, Avg:  6.6, Max:  7.3, Diff:  6.6, Sum: 79.0, Workers: 12
+[2021-05-25T22:10:14.314+0000][6.187s][13059][debug] GC(3)     Update RS (ms):           Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 12
+[2021-05-25T22:10:14.314+0000][6.187s][13059][debug] GC(3)       Processed Buffers:        Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 12
+[2021-05-25T22:10:14.314+0000][6.187s][13059][debug] GC(3)       Scanned Cards:            Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 12
+[2021-05-25T22:10:14.314+0000][6.187s][13059][debug] GC(3)       Skipped Cards:            Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 12
+[2021-05-25T22:10:14.314+0000][6.187s][13059][debug] GC(3)     Scan RS (ms):             Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 12
+[2021-05-25T22:10:14.314+0000][6.187s][13059][debug] GC(3)       Scanned Cards:            Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 12
+[2021-05-25T22:10:14.314+0000][6.187s][13059][debug] GC(3)       Claimed Cards:            Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 12
+[2021-05-25T22:10:14.315+0000][6.187s][13059][debug] GC(3)       Skipped Cards:            Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 12
+[2021-05-25T22:10:14.315+0000][6.187s][13059][debug] GC(3)     Code Root Scanning (ms):  Min:  0.0, Avg:  0.2, Max:  0.8, Diff:  0.8, Sum:  1.9, Workers: 12
+[2021-05-25T22:10:14.315+0000][6.187s][13059][debug] GC(3)     AOT Root Scanning (ms):   skipped
+[2021-05-25T22:10:14.315+0000][6.187s][13059][debug] GC(3)     Object Copy (ms):         Min:  0.1, Avg:  0.8, Max:  6.7, Diff:  6.6, Sum: 10.2, Workers: 12
+[2021-05-25T22:10:14.315+0000][6.188s][13059][debug] GC(3)     Termination (ms):         Min:  0.0, Avg:  0.7, Max:  0.9, Diff:  0.9, Sum:  8.6, Workers: 12
+[2021-05-25T22:10:14.315+0000][6.188s][13059][debug] GC(3)       Termination Attempts:     Min: 1, Avg:  1.0, Max: 1, Diff: 0, Sum: 12, Workers: 12
+[2021-05-25T22:10:14.315+0000][6.188s][13059][debug] GC(3)     GC Worker Other (ms):     Min:  0.0, Avg:  0.2, Max:  0.4, Diff:  0.3, Sum:  2.2, Workers: 12
+[2021-05-25T22:10:14.315+0000][6.188s][13059][debug] GC(3)     GC Worker Total (ms):     Min:  8.2, Avg:  8.5, Max:  8.7, Diff:  0.5, Sum: 101.9, Workers: 12
+[2021-05-25T22:10:14.315+0000][6.188s][13059][info ] GC(3)   Post Evacuate Collection Set: 1.2ms
+[2021-05-25T22:10:14.315+0000][6.188s][13059][debug] GC(3)     Code Roots Fixup: 0.0ms
+[2021-05-25T22:10:14.315+0000][6.188s][13059][debug] GC(3)     Clear Card Table: 0.0ms
+[2021-05-25T22:10:14.315+0000][6.188s][13059][debug] GC(3)     Reference Processing: 0.1ms
+[2021-05-25T22:10:14.315+0000][6.188s][13059][debug] GC(3)       Reconsider SoftReferences: 0.0ms
+[2021-05-25T22:10:14.315+0000][6.188s][13059][debug] GC(3)         SoftRef (ms):             skipped
+[2021-05-25T22:10:14.315+0000][6.188s][13059][debug] GC(3)       Notify Soft/WeakReferences: 0.1ms
+[2021-05-25T22:10:14.315+0000][6.188s][13059][debug] GC(3)         SoftRef (ms):             Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 1
+[2021-05-25T22:10:14.315+0000][6.188s][13059][debug] GC(3)         WeakRef (ms):             Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 1
+[2021-05-25T22:10:14.315+0000][6.188s][13059][debug] GC(3)         FinalRef (ms):            Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 1
+[2021-05-25T22:10:14.315+0000][6.188s][13059][debug] GC(3)         Total (ms):               Min:  0.1, Avg:  0.1, Max:  0.1, Diff:  0.0, Sum:  0.1, Workers: 1
+[2021-05-25T22:10:14.315+0000][6.188s][13059][debug] GC(3)       Notify and keep alive finalizable: 0.0ms
+[2021-05-25T22:10:14.315+0000][6.188s][13059][debug] GC(3)         FinalRef (ms):            skipped
+[2021-05-25T22:10:14.315+0000][6.188s][13059][debug] GC(3)       Notify PhantomReferences: 0.0ms
+[2021-05-25T22:10:14.315+0000][6.188s][13059][debug] GC(3)         PhantomRef (ms):          Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 1
+[2021-05-25T22:10:14.315+0000][6.188s][13059][debug] GC(3)       SoftReference:
+[2021-05-25T22:10:14.315+0000][6.188s][13059][debug] GC(3)         Discovered: 0
+[2021-05-25T22:10:14.315+0000][6.188s][13059][debug] GC(3)         Cleared: 0
+[2021-05-25T22:10:14.315+0000][6.188s][13059][debug] GC(3)       WeakReference:
+[2021-05-25T22:10:14.315+0000][6.188s][13059][debug] GC(3)         Discovered: 592
+[2021-05-25T22:10:14.315+0000][6.188s][13059][debug] GC(3)         Cleared: 592
+[2021-05-25T22:10:14.315+0000][6.188s][13059][debug] GC(3)       FinalReference:
+[2021-05-25T22:10:14.315+0000][6.188s][13059][debug] GC(3)         Discovered: 2
+[2021-05-25T22:10:14.315+0000][6.188s][13059][debug] GC(3)         Cleared: 2
+[2021-05-25T22:10:14.315+0000][6.188s][13059][debug] GC(3)       PhantomReference:
+[2021-05-25T22:10:14.315+0000][6.188s][13059][debug] GC(3)         Discovered: 4
+[2021-05-25T22:10:14.315+0000][6.188s][13059][debug] GC(3)         Cleared: 4
+[2021-05-25T22:10:14.315+0000][6.188s][13059][debug] GC(3)     Weak Processing: 0.0ms
+[2021-05-25T22:10:14.315+0000][6.188s][13059][debug] GC(3)     Merge Per-Thread State: 0.0ms
+[2021-05-25T22:10:14.315+0000][6.188s][13059][debug] GC(3)     Code Roots Purge: 0.0ms
+[2021-05-25T22:10:14.315+0000][6.188s][13059][debug] GC(3)     Redirty Cards: 0.0ms
+[2021-05-25T22:10:14.315+0000][6.188s][13059][debug] GC(3)     DerivedPointerTable Update: 0.0ms
+[2021-05-25T22:10:14.315+0000][6.188s][13059][debug] GC(3)     Free Collection Set: 0.2ms
+[2021-05-25T22:10:14.315+0000][6.188s][13059][debug] GC(3)     Humongous Reclaim: 0.7ms
+[2021-05-25T22:10:14.315+0000][6.188s][13059][debug] GC(3)     Start New Collection Set: 0.0ms
+[2021-05-25T22:10:14.315+0000][6.188s][13059][debug] GC(3)     Resize TLABs: 0.0ms
+[2021-05-25T22:10:14.315+0000][6.188s][13059][debug] GC(3)     Expand Heap After Collection: 0.0ms
+[2021-05-25T22:10:14.315+0000][6.188s][13059][info ] GC(3)   Other: 0.5ms
+[2021-05-25T22:10:14.315+0000][6.188s][13059][info ] GC(3) Eden regions: 1->0(69)
+[2021-05-25T22:10:14.315+0000][6.188s][13059][info ] GC(3) Survivor regions: 4->4(22)
+[2021-05-25T22:10:14.315+0000][6.188s][13059][info ] GC(3) Old regions: 0->0
+[2021-05-25T22:10:14.315+0000][6.188s][13059][info ] GC(3) Humongous regions: 228->228
+[2021-05-25T22:10:14.315+0000][6.188s][13059][info ] GC(3) Metaspace: 15630K->15630K(1062912K)
+[2021-05-25T22:10:14.315+0000][6.188s][13059][debug] GC(3) Heap after GC invocations=4 (full 0): garbage-first heap   total 524288K, used 237435K [0x0000000780000000, 0x0000000800000000)
+[2021-05-25T22:10:14.315+0000][6.188s][13059][debug] GC(3)   region size 1024K, 4 young (4096K), 4 survivors (4096K)
+[2021-05-25T22:10:14.315+0000][6.188s][13059][debug] GC(3)  Metaspace       used 15630K, capacity 15986K, committed 16128K, reserved 1062912K
+[2021-05-25T22:10:14.315+0000][6.188s][13059][debug] GC(3)   class space    used 1552K, capacity 1698K, committed 1792K, reserved 1048576K
+[2021-05-25T22:10:14.315+0000][6.188s][13059][info ] GC(3) Pause Young (Concurrent Start) (G1 Humongous Allocation) 232M->231M(512M) 11.189ms
+[2021-05-25T22:10:14.315+0000][6.188s][13059][info ] GC(3) User=0.03s Sys=0.00s Real=0.01s
+[2021-05-25T22:10:14.315+0000][6.188s][20995][info ] GC(4) Concurrent Cycle
+[2021-05-25T22:10:14.315+0000][6.188s][20995][info ] GC(4) Concurrent Clear Claimed Marks
+[2021-05-25T22:10:14.315+0000][6.188s][20995][info ] GC(4) Concurrent Clear Claimed Marks 0.026ms
+[2021-05-25T22:10:14.315+0000][6.188s][20995][info ] GC(4) Concurrent Scan Root Regions
+[2021-05-25T22:10:14.315+0000][6.188s][20995][debug] GC(4) Running G1 Root Region Scan using 3 workers for 4 work units.
+[2021-05-25T22:10:14.317+0000][6.190s][20995][info ] GC(4) Concurrent Scan Root Regions 1.496ms
+[2021-05-25T22:10:14.317+0000][6.190s][20995][info ] GC(4) Concurrent Mark (6.190s)
+[2021-05-25T22:10:14.317+0000][6.190s][20995][info ] GC(4) Concurrent Mark From Roots
+[2021-05-25T22:10:14.317+0000][6.190s][20995][info ] GC(4) Using 3 workers of 3 for marking
+[2021-05-25T22:10:14.317+0000][6.190s][20995][debug] ---------------------------------------------------------------------
+[2021-05-25T22:10:14.317+0000][6.190s][20995][debug] Marking Stats, task = 0, calls = 1
+[2021-05-25T22:10:14.317+0000][6.190s][20995][debug]   Elapsed time = 0.30ms, Termination time = 0.00ms
+[2021-05-25T22:10:14.317+0000][6.190s][20995][debug]   Step Times (cum): num = 55, avg = 0.02ms, sd = 0.10ms max = 0.66ms, total = 1.04ms
+[2021-05-25T22:10:14.317+0000][6.190s][20995][debug]   Mark Stats Cache: hits 1 misses 39 ratio 2.500
+[2021-05-25T22:10:14.317+0000][6.190s][20995][debug] ---------------------------------------------------------------------
+[2021-05-25T22:10:14.317+0000][6.190s][20995][debug] Marking Stats, task = 1, calls = 1
+[2021-05-25T22:10:14.317+0000][6.190s][20995][debug]   Elapsed time = 0.30ms, Termination time = 0.00ms
+[2021-05-25T22:10:14.317+0000][6.190s][20995][debug]   Step Times (cum): num = 3, avg = 0.34ms, sd = 0.25ms max = 0.66ms, total = 1.01ms
+[2021-05-25T22:10:14.317+0000][6.190s][20995][debug]   Mark Stats Cache: hits 0 misses 0 ratio 0.000
+[2021-05-25T22:10:14.317+0000][6.190s][20995][debug] ---------------------------------------------------------------------
+[2021-05-25T22:10:14.317+0000][6.190s][20995][debug] Marking Stats, task = 2, calls = 1
+[2021-05-25T22:10:14.317+0000][6.190s][20995][debug]   Elapsed time = 0.30ms, Termination time = 0.00ms
+[2021-05-25T22:10:14.317+0000][6.190s][20995][debug]   Step Times (cum): num = 3, avg = 0.33ms, sd = 0.25ms max = 0.65ms, total = 1.00ms
+[2021-05-25T22:10:14.317+0000][6.190s][20995][debug]   Mark Stats Cache: hits 0 misses 0 ratio 0.000
+[2021-05-25T22:10:14.317+0000][6.190s][20995][debug] ---------------------------------------------------------------------
+[2021-05-25T22:10:14.317+0000][6.190s][20995][info ] GC(4) Concurrent Mark From Roots 0.545ms
+[2021-05-25T22:10:14.317+0000][6.190s][20995][info ] GC(4) Concurrent Preclean
+[2021-05-25T22:10:14.317+0000][6.190s][20995][debug] GC(4) Preclean SoftReferences
+[2021-05-25T22:10:14.317+0000][6.190s][20995][debug] GC(4) Preclean SoftReferences 0.023ms
+[2021-05-25T22:10:14.317+0000][6.190s][20995][debug] GC(4) Preclean WeakReferences
+[2021-05-25T22:10:14.317+0000][6.190s][20995][debug] GC(4) Preclean WeakReferences 0.019ms
+[2021-05-25T22:10:14.317+0000][6.190s][20995][debug] GC(4) Preclean FinalReferences
+[2021-05-25T22:10:14.317+0000][6.190s][20995][debug] GC(4) Preclean FinalReferences 0.019ms
+[2021-05-25T22:10:14.317+0000][6.190s][20995][debug] GC(4) Preclean PhantomReferences
+[2021-05-25T22:10:14.318+0000][6.190s][20995][debug] GC(4) Preclean PhantomReferences 0.018ms
+[2021-05-25T22:10:14.318+0000][6.190s][20995][info ] GC(4) Concurrent Preclean 0.144ms
+[2021-05-25T22:10:14.318+0000][6.190s][20995][info ] GC(4) Concurrent Mark (6.190s, 6.190s) 0.726ms
+[2021-05-25T22:10:14.318+0000][6.191s][13059][info ] GC(4) Pause Remark
+[2021-05-25T22:10:14.318+0000][6.191s][13059][debug] GC(4) Finalize Marking
+[2021-05-25T22:10:14.318+0000][6.191s][13059][debug] ---------------------------------------------------------------------
+[2021-05-25T22:10:14.318+0000][6.191s][13059][debug] Marking Stats, task = 0, calls = 54
+[2021-05-25T22:10:14.318+0000][6.191s][13059][debug]   Elapsed time = 0.03ms, Termination time = 0.02ms
+[2021-05-25T22:10:14.318+0000][6.191s][13059][debug]   Step Times (cum): num = 108, avg = 0.01ms, sd = 0.07ms max = 0.66ms, total = 1.09ms
+[2021-05-25T22:10:14.318+0000][6.191s][13059][debug]   Mark Stats Cache: hits 1 misses 39 ratio 2.500
+[2021-05-25T22:10:14.318+0000][6.191s][13059][debug] ---------------------------------------------------------------------
+[2021-05-25T22:10:14.318+0000][6.191s][13059][debug] Marking Stats, task = 1, calls = 2
+[2021-05-25T22:10:14.318+0000][6.191s][13059][debug]   Elapsed time = 0.03ms, Termination time = 0.02ms
+[2021-05-25T22:10:14.318+0000][6.191s][13059][debug]   Step Times (cum): num = 4, avg = 0.26ms, sd = 0.26ms max = 0.66ms, total = 1.03ms
+[2021-05-25T22:10:14.318+0000][6.191s][13059][debug]   Mark Stats Cache: hits 0 misses 0 ratio 0.000
+[2021-05-25T22:10:14.318+0000][6.191s][13059][debug] ---------------------------------------------------------------------
+[2021-05-25T22:10:14.318+0000][6.191s][13059][debug] Marking Stats, task = 2, calls = 2
+[2021-05-25T22:10:14.318+0000][6.191s][13059][debug]   Elapsed time = 0.03ms, Termination time = 0.02ms
+[2021-05-25T22:10:14.318+0000][6.191s][13059][debug]   Step Times (cum): num = 4, avg = 0.26ms, sd = 0.25ms max = 0.65ms, total = 1.02ms
+[2021-05-25T22:10:14.318+0000][6.191s][13059][debug]   Mark Stats Cache: hits 0 misses 0 ratio 0.000
+[2021-05-25T22:10:14.318+0000][6.191s][13059][debug] ---------------------------------------------------------------------
+[2021-05-25T22:10:14.318+0000][6.191s][13059][debug] Marking Stats, task = 3, calls = 1
+[2021-05-25T22:10:14.318+0000][6.191s][13059][debug]   Elapsed time = 0.03ms, Termination time = 0.02ms
+[2021-05-25T22:10:14.318+0000][6.191s][13059][debug]   Step Times (cum): num = 2, avg = 0.03ms, sd = 0.01ms max = 0.03ms, total = 0.06ms
+[2021-05-25T22:10:14.318+0000][6.191s][13059][debug]   Mark Stats Cache: hits 0 misses 0 ratio 0.000
+[2021-05-25T22:10:14.318+0000][6.191s][13059][debug] ---------------------------------------------------------------------
+[2021-05-25T22:10:14.318+0000][6.191s][13059][debug] Marking Stats, task = 4, calls = 1
+[2021-05-25T22:10:14.318+0000][6.191s][13059][debug]   Elapsed time = 0.04ms, Termination time = 0.03ms
+[2021-05-25T22:10:14.318+0000][6.191s][13059][debug]   Step Times (cum): num = 2, avg = 0.03ms, sd = 0.00ms max = 0.03ms, total = 0.07ms
+[2021-05-25T22:10:14.318+0000][6.191s][13059][debug]   Mark Stats Cache: hits 0 misses 0 ratio 0.000
+[2021-05-25T22:10:14.318+0000][6.191s][13059][debug] ---------------------------------------------------------------------
+[2021-05-25T22:10:14.318+0000][6.191s][13059][debug] Marking Stats, task = 5, calls = 1
+[2021-05-25T22:10:14.318+0000][6.191s][13059][debug]   Elapsed time = 0.04ms, Termination time = 0.03ms
+[2021-05-25T22:10:14.318+0000][6.191s][13059][debug]   Step Times (cum): num = 2, avg = 0.05ms, sd = 0.01ms max = 0.06ms, total = 0.09ms
+[2021-05-25T22:10:14.318+0000][6.191s][13059][debug]   Mark Stats Cache: hits 0 misses 0 ratio 0.000
+[2021-05-25T22:10:14.318+0000][6.191s][13059][debug] ---------------------------------------------------------------------
+[2021-05-25T22:10:14.318+0000][6.191s][13059][debug] Marking Stats, task = 6, calls = 1
+[2021-05-25T22:10:14.318+0000][6.191s][13059][debug]   Elapsed time = 0.02ms, Termination time = 0.01ms
+[2021-05-25T22:10:14.318+0000][6.191s][13059][debug]   Step Times (cum): num = 2, avg = 0.04ms, sd = 0.02ms max = 0.06ms, total = 0.07ms
+[2021-05-25T22:10:14.318+0000][6.191s][13059][debug]   Mark Stats Cache: hits 0 misses 0 ratio 0.000
+[2021-05-25T22:10:14.318+0000][6.191s][13059][debug] ---------------------------------------------------------------------
+[2021-05-25T22:10:14.318+0000][6.191s][13059][debug] Marking Stats, task = 7, calls = 1
+[2021-05-25T22:10:14.318+0000][6.191s][13059][debug]   Elapsed time = 0.02ms, Termination time = 0.01ms
+[2021-05-25T22:10:14.318+0000][6.191s][13059][debug]   Step Times (cum): num = 2, avg = 0.03ms, sd = 0.02ms max = 0.05ms, total = 0.06ms
+[2021-05-25T22:10:14.318+0000][6.191s][13059][debug]   Mark Stats Cache: hits 0 misses 0 ratio 0.000
+[2021-05-25T22:10:14.318+0000][6.191s][13059][debug] ---------------------------------------------------------------------
+[2021-05-25T22:10:14.318+0000][6.191s][13059][debug] Marking Stats, task = 8, calls = 1
+[2021-05-25T22:10:14.318+0000][6.191s][13059][debug]   Elapsed time = 0.01ms, Termination time = 0.00ms
+[2021-05-25T22:10:14.318+0000][6.191s][13059][debug]   Step Times (cum): num = 2, avg = 0.01ms, sd = 0.01ms max = 0.02ms, total = 0.03ms
+[2021-05-25T22:10:14.318+0000][6.191s][13059][debug]   Mark Stats Cache: hits 0 misses 0 ratio 0.000
+[2021-05-25T22:10:14.318+0000][6.191s][13059][debug] ---------------------------------------------------------------------
+[2021-05-25T22:10:14.318+0000][6.191s][13059][debug] Marking Stats, task = 9, calls = 1
+[2021-05-25T22:10:14.318+0000][6.191s][13059][debug]   Elapsed time = 0.01ms, Termination time = 0.00ms
+[2021-05-25T22:10:14.318+0000][6.191s][13059][debug]   Step Times (cum): num = 2, avg = 0.01ms, sd = 0.01ms max = 0.02ms, total = 0.03ms
+[2021-05-25T22:10:14.318+0000][6.191s][13059][debug]   Mark Stats Cache: hits 0 misses 0 ratio 0.000
+[2021-05-25T22:10:14.318+0000][6.191s][13059][debug] ---------------------------------------------------------------------
+[2021-05-25T22:10:14.318+0000][6.191s][13059][debug] Marking Stats, task = 10, calls = 1
+[2021-05-25T22:10:14.318+0000][6.191s][13059][debug]   Elapsed time = 0.01ms, Termination time = 0.00ms
+[2021-05-25T22:10:14.318+0000][6.191s][13059][debug]   Step Times (cum): num = 2, avg = 0.01ms, sd = 0.00ms max = 0.01ms, total = 0.02ms
+[2021-05-25T22:10:14.318+0000][6.191s][13059][debug]   Mark Stats Cache: hits 0 misses 0 ratio 0.000
+[2021-05-25T22:10:14.318+0000][6.191s][13059][debug] ---------------------------------------------------------------------
+[2021-05-25T22:10:14.318+0000][6.191s][13059][debug] Marking Stats, task = 11, calls = 1
+[2021-05-25T22:10:14.318+0000][6.191s][13059][debug]   Elapsed time = 0.01ms, Termination time = 0.00ms
+[2021-05-25T22:10:14.318+0000][6.191s][13059][debug]   Step Times (cum): num = 2, avg = 0.01ms, sd = 0.00ms max = 0.01ms, total = 0.02ms
+[2021-05-25T22:10:14.318+0000][6.191s][13059][debug]   Mark Stats Cache: hits 0 misses 0 ratio 0.000
+[2021-05-25T22:10:14.318+0000][6.191s][13059][debug] ---------------------------------------------------------------------
+[2021-05-25T22:10:14.318+0000][6.191s][13059][debug] GC(4) Finalize Marking 0.752ms
+[2021-05-25T22:10:14.318+0000][6.191s][13059][debug] GC(4) Reference Processing
+[2021-05-25T22:10:14.318+0000][6.191s][13059][debug] GC(4) Skipped phase1 of Reference Processing due to unavailable references
+[2021-05-25T22:10:14.318+0000][6.191s][13059][debug] GC(4) Skipped phase2 of Reference Processing due to unavailable references
+[2021-05-25T22:10:14.318+0000][6.191s][13059][debug] GC(4) Skipped phase3 of Reference Processing due to unavailable references
+[2021-05-25T22:10:14.318+0000][6.191s][13059][debug] GC(4) Skipped phase4 of Reference Processing due to unavailable references
+[2021-05-25T22:10:14.318+0000][6.191s][13059][debug] GC(4) Reference Processing: 0.0ms
+[2021-05-25T22:10:14.319+0000][6.191s][13059][debug] GC(4)   Reconsider SoftReferences: 0.0ms
+[2021-05-25T22:10:14.319+0000][6.191s][13059][debug] GC(4)     SoftRef (ms):             skipped
+[2021-05-25T22:10:14.319+0000][6.191s][13059][debug] GC(4)   Notify Soft/WeakReferences: 0.0ms
+[2021-05-25T22:10:14.319+0000][6.191s][13059][debug] GC(4)     SoftRef (ms):             skipped
+[2021-05-25T22:10:14.319+0000][6.192s][13059][debug] GC(4)     WeakRef (ms):             skipped
+[2021-05-25T22:10:14.319+0000][6.192s][13059][debug] GC(4)     FinalRef (ms):            skipped
+[2021-05-25T22:10:14.319+0000][6.192s][13059][debug] GC(4)     Total (ms):               skipped
+[2021-05-25T22:10:14.319+0000][6.192s][13059][debug] GC(4)   Notify and keep alive finalizable: 0.0ms
+[2021-05-25T22:10:14.319+0000][6.192s][13059][debug] GC(4)     FinalRef (ms):            skipped
+[2021-05-25T22:10:14.319+0000][6.192s][13059][debug] GC(4)   Notify PhantomReferences: 0.0ms
+[2021-05-25T22:10:14.319+0000][6.192s][13059][debug] GC(4)     PhantomRef (ms):          skipped
+[2021-05-25T22:10:14.319+0000][6.192s][13059][debug] GC(4)   SoftReference:
+[2021-05-25T22:10:14.319+0000][6.192s][13059][debug] GC(4)     Discovered: 0
+[2021-05-25T22:10:14.319+0000][6.192s][13059][debug] GC(4)     Cleared: 0
+[2021-05-25T22:10:14.319+0000][6.192s][13059][debug] GC(4)   WeakReference:
+[2021-05-25T22:10:14.319+0000][6.192s][13059][debug] GC(4)     Discovered: 0
+[2021-05-25T22:10:14.319+0000][6.192s][13059][debug] GC(4)     Cleared: 0
+[2021-05-25T22:10:14.319+0000][6.192s][13059][debug] GC(4)   FinalReference:
+[2021-05-25T22:10:14.319+0000][6.192s][13059][debug] GC(4)     Discovered: 0
+[2021-05-25T22:10:14.319+0000][6.192s][13059][debug] GC(4)     Cleared: 0
+[2021-05-25T22:10:14.319+0000][6.192s][13059][debug] GC(4)   PhantomReference:
+[2021-05-25T22:10:14.319+0000][6.192s][13059][debug] GC(4)     Discovered: 0
+[2021-05-25T22:10:14.319+0000][6.192s][13059][debug] GC(4)     Cleared: 0
+[2021-05-25T22:10:14.319+0000][6.192s][13059][debug] GC(4) Reference Processing 0.335ms
+[2021-05-25T22:10:14.319+0000][6.192s][13059][debug] GC(4) Weak Processing
+[2021-05-25T22:10:14.319+0000][6.192s][13059][debug] GC(4) Weak Processing 0.027ms
+[2021-05-25T22:10:14.319+0000][6.192s][13059][debug] GC(4) Class Unloading
+[2021-05-25T22:10:14.319+0000][6.192s][13059][debug] GC(4) ClassLoaderData
+[2021-05-25T22:10:14.319+0000][6.192s][13059][debug] GC(4) ClassLoaderData 0.029ms
+[2021-05-25T22:10:14.319+0000][6.192s][13059][debug] GC(4) ProtectionDomainCacheTable
+[2021-05-25T22:10:14.319+0000][6.192s][13059][debug] GC(4) ProtectionDomainCacheTable 0.014ms
+[2021-05-25T22:10:14.320+0000][6.193s][13059][info ] GC(4) Cleaned string and symbol table, strings: 7312 processed, 0 removed, symbols: 50747 processed, 0 removed
+[2021-05-25T22:10:14.320+0000][6.193s][13059][debug] GC(4) Class Unloading 0.822ms
+[2021-05-25T22:10:14.320+0000][6.193s][13059][debug] GC(4) Flush Task Caches
+[2021-05-25T22:10:14.320+0000][6.193s][13059][debug] Mark stats cache hits 1 misses 39 ratio 2.500
+[2021-05-25T22:10:14.320+0000][6.193s][13059][debug] GC(4) Flush Task Caches 0.062ms
+[2021-05-25T22:10:14.320+0000][6.193s][13059][debug] GC(4) Update Remembered Set Tracking Before Rebuild
+[2021-05-25T22:10:14.320+0000][6.193s][13059][debug] GC(4) Running G1 Update RemSet Tracking Before Rebuild using 2 workers for 512 regions in heap
+[2021-05-25T22:10:14.320+0000][6.193s][13059][debug] GC(4) Remembered Set Tracking update regions total 512, selected 0
+[2021-05-25T22:10:14.320+0000][6.193s][13059][debug] GC(4) Update Remembered Set Tracking Before Rebuild 0.134ms
+[2021-05-25T22:10:14.320+0000][6.193s][13059][debug] GC(4) Reclaim Empty Regions
+[2021-05-25T22:10:14.320+0000][6.193s][13059][debug] GC(4) Reclaimed 68 empty regions
+[2021-05-25T22:10:14.320+0000][6.193s][13059][debug] GC(4) Reclaim Empty Regions 0.219ms
+[2021-05-25T22:10:14.320+0000][6.193s][13059][debug] GC(4) Purge Metaspace
+[2021-05-25T22:10:14.320+0000][6.193s][13059][debug] GC(4) Purge Metaspace 0.014ms
+[2021-05-25T22:10:14.320+0000][6.193s][13059][debug] GC(4) Report Object Count
+[2021-05-25T22:10:14.320+0000][6.193s][13059][debug] GC(4) Report Object Count 0.012ms
+[2021-05-25T22:10:14.320+0000][6.193s][13059][info ] GC(4) Pause Remark 236M->168M(512M) 2.552ms
+[2021-05-25T22:10:14.320+0000][6.193s][13059][info ] GC(4) User=0.01s Sys=0.00s Real=0.01s
+[2021-05-25T22:10:14.320+0000][6.193s][20995][info ] GC(4) Concurrent Rebuild Remembered Sets
+[2021-05-25T22:10:14.320+0000][6.193s][20995][info ] GC(4) Concurrent Rebuild Remembered Sets 0.139ms
+[2021-05-25T22:10:14.321+0000][6.193s][13059][info ] GC(4) Pause Cleanup
+[2021-05-25T22:10:14.321+0000][6.193s][13059][debug] GC(4) Update Remembered Set Tracking After Rebuild
+[2021-05-25T22:10:14.321+0000][6.194s][13059][debug] GC(4) Update Remembered Set Tracking After Rebuild 0.030ms
+[2021-05-25T22:10:14.321+0000][6.194s][13059][debug] GC(4) Finalize Concurrent Mark Cleanup
+[2021-05-25T22:10:14.321+0000][6.194s][13059][debug] GC(4) request young-only gcs (candidate old regions not available)
+[2021-05-25T22:10:14.321+0000][6.194s][13059][debug] GC(4) Finalize Concurrent Mark Cleanup 0.117ms
+[2021-05-25T22:10:14.321+0000][6.194s][13059][info ] GC(4) Pause Cleanup 168M->168M(512M) 0.208ms
+[2021-05-25T22:10:14.321+0000][6.194s][13059][info ] GC(4) User=0.00s Sys=0.00s Real=0.00s
+[2021-05-25T22:10:14.321+0000][6.194s][20995][info ] GC(4) Concurrent Cleanup for Next Mark
+[2021-05-25T22:10:14.321+0000][6.194s][20995][debug] GC(4) Running G1 Clear Bitmap with 3 workers for 8 work units.
+[2021-05-25T22:10:14.324+0000][6.197s][20995][info ] GC(4) Concurrent Cleanup for Next Mark 3.236ms
+[2021-05-25T22:10:14.324+0000][6.197s][20995][info ] GC(4) Concurrent Cycle 8.856ms
+[2021-05-25T22:10:15.243+0000][7.116s][35331][debug] Request concurrent cycle initiation (occupancy higher than threshold) occupancy: 239075328B allocation request: 3145744B threshold: 241591910B (45.00) source: concurrent humongous allocation
+[2021-05-25T22:10:15.243+0000][7.116s][13059][debug] Request concurrent cycle initiation (requested by GC cause). GC cause: G1 Humongous Allocation
+[2021-05-25T22:10:15.243+0000][7.116s][13059][debug] GC(5) Heap before GC invocations=5 (full 0): garbage-first heap   total 524288K, used 237435K [0x0000000780000000, 0x0000000800000000)
+[2021-05-25T22:10:15.243+0000][7.116s][13059][debug] GC(5)   region size 1024K, 5 young (5120K), 4 survivors (4096K)
+[2021-05-25T22:10:15.243+0000][7.116s][13059][debug] GC(5)  Metaspace       used 15630K, capacity 15986K, committed 16128K, reserved 1062912K
+[2021-05-25T22:10:15.243+0000][7.116s][13059][debug] GC(5)   class space    used 1552K, capacity 1698K, committed 1792K, reserved 1048576K
+[2021-05-25T22:10:15.243+0000][7.116s][13059][debug] GC(5) Initiate concurrent cycle (concurrent cycle initiation requested)
+[2021-05-25T22:10:15.243+0000][7.116s][13059][info ] GC(5) Pause Young (Concurrent Start) (G1 Humongous Allocation)
+[2021-05-25T22:10:15.244+0000][7.116s][13059][info ] GC(5) Using 12 workers of 13 for evacuation
+[2021-05-25T22:10:15.244+0000][7.116s][13059][debug] GC(5) TLAB totals: thrds: 2  refills: 2 max: 1 slow allocs: 17 max 17 waste: 96.7% gc: 622184B max: 503176B slow: 0B max: 0B fast: 0B max: 0B
+[2021-05-25T22:10:15.244+0000][7.117s][13059][debug] GC(5) Mutator Allocation stats, regions: 1, wasted size: 0B ( 0.0%)
+[2021-05-25T22:10:15.244+0000][7.117s][13059][debug] GC(5) Desired survivor size 5242880 bytes, new threshold 15 (max threshold 15)
+[2021-05-25T22:10:15.244+0000][7.117s][13059][debug] GC(5) Finish choosing CSet. old: 0 regions, predicted old region time: 0.00ms, time remaining: 179.37
+[2021-05-25T22:10:15.244+0000][7.117s][13059][debug] GC(5) GC Termination Stats
+[2021-05-25T22:10:15.244+0000][7.117s][13059][debug] GC(5)      elapsed  --strong roots-- -------termination------- ------waste (KiB)------
+[2021-05-25T22:10:15.244+0000][7.117s][13059][debug] GC(5) thr     ms        ms      %        ms      %    attempts  total   alloc    undo
+[2021-05-25T22:10:15.244+0000][7.117s][13059][debug] GC(5) --- --------- --------- ------ --------- ------ -------- ------- ------- -------
+[2021-05-25T22:10:15.252+0000][7.125s][26883][debug] GC(5)   8      8.58      8.57  99.89      0.00   0.00        1       0       0       0
+[2021-05-25T22:10:15.252+0000][7.125s][39939][debug] GC(5)   0      8.66      8.37  96.60      0.28   3.28        1       2       2       0
+[2021-05-25T22:10:15.253+0000][7.125s][26627][debug] GC(5)   2      8.71      7.70  88.42      0.87   9.99        1       0       0       0
+[2021-05-25T22:10:15.253+0000][7.126s][25859][debug] GC(5)   9      8.73      7.69  88.01      0.90  10.32        1       0       0       0
+[2021-05-25T22:10:15.253+0000][7.126s][24835][debug] GC(5)   3      8.80      7.92  90.03      0.66   7.55        1       0       0       0
+[2021-05-25T22:10:15.253+0000][7.126s][21251][debug] GC(5)  11      8.83      7.70  87.22      0.90  10.23        1       0       0       0
+[2021-05-25T22:10:15.253+0000][7.126s][40451][debug] GC(5)   7      8.87      7.74  87.22      0.89   9.98        1       0       0       0
+[2021-05-25T22:10:15.253+0000][7.126s][39171][debug] GC(5)   4      8.93      7.74  86.72      0.86   9.66        1       0       0       0
+[2021-05-25T22:10:15.253+0000][7.126s][38659][debug] GC(5)  10      8.96      7.69  85.90      0.86   9.56        1       0       0       0
+[2021-05-25T22:10:15.253+0000][7.126s][37891][debug] GC(5)   5      9.00      7.70  85.54      0.85   9.41        1       0       0       0
+[2021-05-25T22:10:15.253+0000][7.126s][25347][debug] GC(5)   1      9.07      7.72  85.05      0.85   9.32        1       0       0       0
+[2021-05-25T22:10:15.253+0000][7.126s][39427][debug] GC(5)   6      9.08      7.97  87.78      0.85   9.39        1       1       1       0
+[2021-05-25T22:10:15.253+0000][7.126s][13059][debug] GC(5) Running G1 Clear Card Table Task using 1 workers for 1 units of work for 5 regions.
+[2021-05-25T22:10:15.253+0000][7.126s][13059][debug] GC(5) Skipped phase1 of Reference Processing due to unavailable references
+[2021-05-25T22:10:15.253+0000][7.126s][13059][debug] GC(5) Skipped phase3 of Reference Processing due to unavailable references
+[2021-05-25T22:10:15.253+0000][7.126s][13059][debug] GC(5) Running G1 Free Collection Set using 1 workers for collection set length 5
+[2021-05-25T22:10:15.253+0000][7.126s][13059][debug] GC(5) Live humongous region 0 object size 3145744 start 0x0000000780000000  with remset 0 code roots 0 is marked 0 reclaim candidate 0 type array 1
+[2021-05-25T22:10:15.253+0000][7.126s][13059][debug] GC(5) Live humongous region 4 object size 3145744 start 0x0000000780400000  with remset 0 code roots 0 is marked 0 reclaim candidate 0 type array 1
+[2021-05-25T22:10:15.253+0000][7.126s][13059][debug] GC(5) Live humongous region 8 object size 3145744 start 0x0000000780800000  with remset 0 code roots 0 is marked 0 reclaim candidate 0 type array 1
+[2021-05-25T22:10:15.253+0000][7.126s][13059][debug] GC(5) Live humongous region 12 object size 3145744 start 0x0000000780c00000  with remset 0 code roots 0 is marked 0 reclaim candidate 0 type array 1
+[2021-05-25T22:10:15.254+0000][7.126s][13059][debug] GC(5) Live humongous region 16 object size 3145744 start 0x0000000781000000  with remset 0 code roots 0 is marked 0 reclaim candidate 0 type array 1
+[2021-05-25T22:10:15.254+0000][7.126s][13059][debug] GC(5) Live humongous region 20 object size 3145744 start 0x0000000781400000  with remset 0 code roots 0 is marked 0 reclaim candidate 0 type array 1
+[2021-05-25T22:10:15.254+0000][7.126s][13059][debug] GC(5) Live humongous region 24 object size 3145744 start 0x0000000781800000  with remset 0 code roots 0 is marked 0 reclaim candidate 0 type array 1
+[2021-05-25T22:10:15.254+0000][7.127s][13059][debug] GC(5) Live humongous region 28 object size 3145744 start 0x0000000781c00000  with remset 0 code roots 0 is marked 0 reclaim candidate 0 type array 1
+[2021-05-25T22:10:15.254+0000][7.127s][13059][debug] GC(5) Live humongous region 32 object size 3145744 start 0x0000000782000000  with remset 0 code roots 0 is marked 0 reclaim candidate 0 type array 1
+[2021-05-25T22:10:15.254+0000][7.127s][13059][debug] GC(5) Live humongous region 36 object size 3145744 start 0x0000000782400000  with remset 0 code roots 0 is marked 0 reclaim candidate 0 type array 1
+[2021-05-25T22:10:15.254+0000][7.127s][13059][debug] GC(5) Live humongous region 40 object size 3145744 start 0x0000000782800000  with remset 0 code roots 0 is marked 0 reclaim candidate 0 type array 1
+[2021-05-25T22:10:15.254+0000][7.127s][13059][debug] GC(5) Live humongous region 44 object size 3145744 start 0x0000000782c00000  with remset 0 code roots 0 is marked 0 reclaim candidate 0 type array 1
+[2021-05-25T22:10:15.254+0000][7.127s][13059][debug] GC(5) Live humongous region 48 object size 3145744 start 0x0000000783000000  with remset 0 code roots 0 is marked 0 reclaim candidate 0 type array 1
+[2021-05-25T22:10:15.254+0000][7.127s][13059][debug] GC(5) Live humongous region 52 object size 3145744 start 0x0000000783400000  with remset 0 code roots 0 is marked 0 reclaim candidate 0 type array 1
+[2021-05-25T22:10:15.254+0000][7.127s][13059][debug] GC(5) Live humongous region 56 object size 3145744 start 0x0000000783800000  with remset 0 code roots 0 is marked 0 reclaim candidate 0 type array 1
+[2021-05-25T22:10:15.254+0000][7.127s][13059][debug] GC(5) Live humongous region 60 object size 3145744 start 0x0000000783c00000  with remset 0 code roots 0 is marked 0 reclaim candidate 0 type array 1
+[2021-05-25T22:10:15.254+0000][7.127s][13059][debug] GC(5) Live humongous region 64 object size 3145744 start 0x0000000784000000  with remset 0 code roots 0 is marked 0 reclaim candidate 0 type array 1
+[2021-05-25T22:10:15.254+0000][7.127s][13059][debug] GC(5) Live humongous region 68 object size 3145744 start 0x0000000784400000  with remset 0 code roots 0 is marked 0 reclaim candidate 0 type array 1
+[2021-05-25T22:10:15.254+0000][7.127s][13059][debug] GC(5) Live humongous region 72 object size 3145744 start 0x0000000784800000  with remset 0 code roots 0 is marked 0 reclaim candidate 0 type array 1
+[2021-05-25T22:10:15.254+0000][7.127s][13059][debug] GC(5) Live humongous region 76 object size 3145744 start 0x0000000784c00000  with remset 0 code roots 0 is marked 0 reclaim candidate 0 type array 1
+[2021-05-25T22:10:15.254+0000][7.127s][13059][debug] GC(5) Live humongous region 80 object size 3145744 start 0x0000000785000000  with remset 0 code roots 0 is marked 0 reclaim candidate 0 type array 1
+[2021-05-25T22:10:15.254+0000][7.127s][13059][debug] GC(5) Live humongous region 84 object size 3145744 start 0x0000000785400000  with remset 0 code roots 0 is marked 0 reclaim candidate 0 type array 1
+[2021-05-25T22:10:15.254+0000][7.127s][13059][debug] GC(5) Live humongous region 88 object size 3145744 start 0x0000000785800000  with remset 0 code roots 0 is marked 0 reclaim candidate 0 type array 1
+[2021-05-25T22:10:15.254+0000][7.127s][13059][debug] GC(5) Live humongous region 92 object size 3145744 start 0x0000000785c00000  with remset 0 code roots 0 is marked 0 reclaim candidate 0 type array 1
+[2021-05-25T22:10:15.254+0000][7.127s][13059][debug] GC(5) Live humongous region 96 object size 3145744 start 0x0000000786000000  with remset 0 code roots 0 is marked 0 reclaim candidate 0 type array 1
+[2021-05-25T22:10:15.254+0000][7.127s][13059][debug] GC(5) Live humongous region 100 object size 3145744 start 0x0000000786400000  with remset 0 code roots 0 is marked 0 reclaim candidate 0 type array 1
+[2021-05-25T22:10:15.254+0000][7.127s][13059][debug] GC(5) Live humongous region 104 object size 3145744 start 0x0000000786800000  with remset 0 code roots 0 is marked 0 reclaim candidate 0 type array 1
+[2021-05-25T22:10:15.254+0000][7.127s][13059][debug] GC(5) Live humongous region 108 object size 3145744 start 0x0000000786c00000  with remset 0 code roots 0 is marked 0 reclaim candidate 0 type array 1
+[2021-05-25T22:10:15.254+0000][7.127s][13059][debug] GC(5) Live humongous region 112 object size 3145744 start 0x0000000787000000  with remset 0 code roots 0 is marked 0 reclaim candidate 0 type array 1
+[2021-05-25T22:10:15.254+0000][7.127s][13059][debug] GC(5) Live humongous region 116 object size 3145744 start 0x0000000787400000  with remset 0 code roots 0 is marked 0 reclaim candidate 0 type array 1
+[2021-05-25T22:10:15.254+0000][7.127s][13059][debug] GC(5) Live humongous region 120 object size 3145744 start 0x0000000787800000  with remset 0 code roots 0 is marked 0 reclaim candidate 0 type array 1
+[2021-05-25T22:10:15.254+0000][7.127s][13059][debug] GC(5) Live humongous region 124 object size 3145744 start 0x0000000787c00000  with remset 0 code roots 0 is marked 0 reclaim candidate 0 type array 1
+[2021-05-25T22:10:15.254+0000][7.127s][13059][debug] GC(5) Live humongous region 128 object size 3145744 start 0x0000000788000000  with remset 0 code roots 0 is marked 0 reclaim candidate 0 type array 1
+[2021-05-25T22:10:15.254+0000][7.127s][13059][debug] GC(5) Live humongous region 132 object size 3145744 start 0x0000000788400000  with remset 0 code roots 0 is marked 0 reclaim candidate 0 type array 1
+[2021-05-25T22:10:15.254+0000][7.127s][13059][debug] GC(5) Live humongous region 136 object size 3145744 start 0x0000000788800000  with remset 0 code roots 0 is marked 0 reclaim candidate 0 type array 1
+[2021-05-25T22:10:15.254+0000][7.127s][13059][debug] GC(5) Live humongous region 140 object size 3145744 start 0x0000000788c00000  with remset 0 code roots 0 is marked 0 reclaim candidate 0 type array 1
+[2021-05-25T22:10:15.254+0000][7.127s][13059][debug] GC(5) Live humongous region 144 object size 3145744 start 0x0000000789000000  with remset 0 code roots 0 is marked 0 reclaim candidate 0 type array 1
+[2021-05-25T22:10:15.254+0000][7.127s][13059][debug] GC(5) Live humongous region 148 object size 3145744 start 0x0000000789400000  with remset 0 code roots 0 is marked 0 reclaim candidate 0 type array 1
+[2021-05-25T22:10:15.254+0000][7.127s][13059][debug] GC(5) Live humongous region 152 object size 3145744 start 0x0000000789800000  with remset 0 code roots 0 is marked 0 reclaim candidate 0 type array 1
+[2021-05-25T22:10:15.254+0000][7.127s][13059][debug] GC(5) Live humongous region 156 object size 3145744 start 0x0000000789c00000  with remset 0 code roots 0 is marked 0 reclaim candidate 0 type array 1
+[2021-05-25T22:10:15.254+0000][7.127s][13059][debug] GC(5) Live humongous region 160 object size 3145744 start 0x000000078a000000  with remset 0 code roots 0 is marked 0 reclaim candidate 0 type array 1
+[2021-05-25T22:10:15.254+0000][7.127s][13059][debug] GC(5) Live humongous region 164 object size 3145744 start 0x000000078a400000  with remset 0 code roots 0 is marked 0 reclaim candidate 0 type array 1
+[2021-05-25T22:10:15.254+0000][7.127s][13059][debug] GC(5) Live humongous region 168 object size 3145744 start 0x000000078a800000  with remset 0 code roots 0 is marked 0 reclaim candidate 0 type array 1
+[2021-05-25T22:10:15.254+0000][7.127s][13059][debug] GC(5) Live humongous region 172 object size 3145744 start 0x000000078ac00000  with remset 0 code roots 0 is marked 0 reclaim candidate 0 type array 1
+[2021-05-25T22:10:15.254+0000][7.127s][13059][debug] GC(5) Live humongous region 176 object size 3145744 start 0x000000078b000000  with remset 0 code roots 0 is marked 0 reclaim candidate 0 type array 1
+[2021-05-25T22:10:15.254+0000][7.127s][13059][debug] GC(5) Live humongous region 180 object size 3145744 start 0x000000078b400000  with remset 0 code roots 0 is marked 0 reclaim candidate 0 type array 1
+[2021-05-25T22:10:15.254+0000][7.127s][13059][debug] GC(5) Live humongous region 184 object size 3145744 start 0x000000078b800000  with remset 0 code roots 0 is marked 0 reclaim candidate 0 type array 1
+[2021-05-25T22:10:15.254+0000][7.127s][13059][debug] GC(5) Live humongous region 192 object size 3145744 start 0x000000078c000000  with remset 0 code roots 0 is marked 0 reclaim candidate 0 type array 1
+[2021-05-25T22:10:15.254+0000][7.127s][13059][debug] GC(5) Live humongous region 196 object size 3145744 start 0x000000078c400000  with remset 0 code roots 0 is marked 0 reclaim candidate 0 type array 1
+[2021-05-25T22:10:15.254+0000][7.127s][13059][debug] GC(5) Live humongous region 200 object size 3145744 start 0x000000078c800000  with remset 0 code roots 0 is marked 0 reclaim candidate 0 type array 1
+[2021-05-25T22:10:15.254+0000][7.127s][13059][debug] GC(5) Live humongous region 204 object size 3145744 start 0x000000078cc00000  with remset 0 code roots 0 is marked 0 reclaim candidate 0 type array 1
+[2021-05-25T22:10:15.254+0000][7.127s][13059][debug] GC(5) Live humongous region 208 object size 3145744 start 0x000000078d000000  with remset 0 code roots 0 is marked 0 reclaim candidate 0 type array 1
+[2021-05-25T22:10:15.254+0000][7.127s][13059][debug] GC(5) Live humongous region 212 object size 3145744 start 0x000000078d400000  with remset 0 code roots 0 is marked 0 reclaim candidate 0 type array 1
+[2021-05-25T22:10:15.254+0000][7.127s][13059][debug] GC(5) Live humongous region 216 object size 3145744 start 0x000000078d800000  with remset 0 code roots 0 is marked 0 reclaim candidate 0 type array 1
+[2021-05-25T22:10:15.254+0000][7.127s][13059][debug] GC(5) Live humongous region 220 object size 3145744 start 0x000000078dc00000  with remset 0 code roots 0 is marked 0 reclaim candidate 0 type array 1
+[2021-05-25T22:10:15.254+0000][7.127s][13059][debug] GC(5) Live humongous region 224 object size 3145744 start 0x000000078e000000  with remset 0 code roots 0 is marked 0 reclaim candidate 0 type array 1
+[2021-05-25T22:10:15.254+0000][7.127s][13059][debug] GC(5) Live humongous region 228 object size 3145744 start 0x000000078e400000  with remset 0 code roots 0 is marked 0 reclaim candidate 0 type array 1
+[2021-05-25T22:10:15.254+0000][7.127s][13059][debug] GC(5) Young PLAB allocation: allocated: 3878784B, wasted: 4336B, unused: 297712B, used: 3576736B, undo waste: 0B, 
+[2021-05-25T22:10:15.254+0000][7.127s][13059][debug] GC(5) Young other allocation: region end waste: 0B, regions filled: 4, direct allocated: 137856B, failure used: 0B, failure wasted: 0B
+[2021-05-25T22:10:15.254+0000][7.127s][13059][debug] GC(5) Young sizing: calculated: 715344B, actual: 714848B
+[2021-05-25T22:10:15.254+0000][7.127s][13059][debug] GC(5) Old PLAB allocation: allocated: 0B, wasted: 0B, unused: 0B, used: 0B, undo waste: 0B, 
+[2021-05-25T22:10:15.254+0000][7.127s][13059][debug] GC(5) Old other allocation: region end waste: 0B, regions filled: 0, direct allocated: 0B, failure used: 0B, failure wasted: 0B
+[2021-05-25T22:10:15.254+0000][7.127s][13059][debug] GC(5) Old sizing: calculated: 0B, actual: 2064B
+[2021-05-25T22:10:15.254+0000][7.127s][13059][debug] GC(5) Basic information (value update), threshold: 241591910B (45.00), target occupancy: 536870912B, current occupancy: 243091968B, recent allocation size: 71303168B, recent allocation duration: 926.64ms, recent old gen allocation rate: 76948418.55B/s, recent marking phase length: 0.00ms
+[2021-05-25T22:10:15.254+0000][7.127s][13059][debug] GC(5) Adaptive IHOP information (value update), threshold: 241591910B (47.37), internal target occupancy: 510027366B, occupancy: 243091968B, additional buffer size: 82837504B, predicted old gen allocation rate: 23686046.39B/s, predicted marking phase length: 0.00ms, prediction active: false
+[2021-05-25T22:10:15.254+0000][7.127s][13059][debug] GC(5) Updated Refinement Zones: green: 13, yellow: 39, red: 65
+[2021-05-25T22:10:15.254+0000][7.127s][13059][info ] GC(5)   Pre Evacuate Collection Set: 0.1ms
+[2021-05-25T22:10:15.254+0000][7.127s][13059][debug] GC(5)     Prepare TLABs: 0.0ms
+[2021-05-25T22:10:15.254+0000][7.127s][13059][debug] GC(5)     Choose Collection Set: 0.0ms
+[2021-05-25T22:10:15.254+0000][7.127s][13059][debug] GC(5)     Humongous Register: 0.0ms
+[2021-05-25T22:10:15.254+0000][7.127s][13059][debug] GC(5)     Clear Claimed Marks: 0.0ms
+[2021-05-25T22:10:15.254+0000][7.127s][13059][info ] GC(5)   Evacuate Collection Set: 9.2ms
+[2021-05-25T22:10:15.254+0000][7.127s][13059][debug] GC(5)     Ext Root Scanning (ms):   Min:  0.9, Avg:  6.9, Max:  7.7, Diff:  6.8, Sum: 82.9, Workers: 12
+[2021-05-25T22:10:15.254+0000][7.127s][13059][debug] GC(5)     Update RS (ms):           Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 12
+[2021-05-25T22:10:15.254+0000][7.127s][13059][debug] GC(5)       Processed Buffers:        Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 12
+[2021-05-25T22:10:15.254+0000][7.127s][13059][debug] GC(5)       Scanned Cards:            Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 12
+[2021-05-25T22:10:15.255+0000][7.127s][13059][debug] GC(5)       Skipped Cards:            Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 12
+[2021-05-25T22:10:15.255+0000][7.127s][13059][debug] GC(5)     Scan RS (ms):             Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 12
+[2021-05-25T22:10:15.255+0000][7.127s][13059][debug] GC(5)       Scanned Cards:            Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 12
+[2021-05-25T22:10:15.255+0000][7.127s][13059][debug] GC(5)       Claimed Cards:            Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 12
+[2021-05-25T22:10:15.255+0000][7.128s][13059][debug] GC(5)       Skipped Cards:            Min: 0, Avg:  0.0, Max: 0, Diff: 0, Sum: 0, Workers: 12
+[2021-05-25T22:10:15.255+0000][7.128s][13059][debug] GC(5)     Code Root Scanning (ms):  Min:  0.0, Avg:  0.2, Max:  0.9, Diff:  0.9, Sum:  2.1, Workers: 12
+[2021-05-25T22:10:15.255+0000][7.128s][13059][debug] GC(5)     AOT Root Scanning (ms):   skipped
+[2021-05-25T22:10:15.255+0000][7.128s][13059][debug] GC(5)     Object Copy (ms):         Min:  0.1, Avg:  0.9, Max:  6.8, Diff:  6.7, Sum: 10.4, Workers: 12
+[2021-05-25T22:10:15.255+0000][7.128s][13059][debug] GC(5)     Termination (ms):         Min:  0.0, Avg:  0.7, Max:  0.9, Diff:  0.9, Sum:  8.8, Workers: 12
+[2021-05-25T22:10:15.255+0000][7.128s][13059][debug] GC(5)       Termination Attempts:     Min: 1, Avg:  1.0, Max: 1, Diff: 0, Sum: 12, Workers: 12
+[2021-05-25T22:10:15.255+0000][7.128s][13059][debug] GC(5)     GC Worker Other (ms):     Min:  0.1, Avg:  0.2, Max:  0.4, Diff:  0.4, Sum:  2.6, Workers: 12
+[2021-05-25T22:10:15.255+0000][7.128s][13059][debug] GC(5)     GC Worker Total (ms):     Min:  8.6, Avg:  8.9, Max:  9.1, Diff:  0.5, Sum: 106.7, Workers: 12
+[2021-05-25T22:10:15.255+0000][7.128s][13059][info ] GC(5)   Post Evacuate Collection Set: 1.3ms
+[2021-05-25T22:10:15.255+0000][7.128s][13059][debug] GC(5)     Code Roots Fixup: 0.0ms
+[2021-05-25T22:10:15.255+0000][7.128s][13059][debug] GC(5)     Clear Card Table: 0.0ms
+[2021-05-25T22:10:15.255+0000][7.128s][13059][debug] GC(5)     Reference Processing: 0.1ms
+[2021-05-25T22:10:15.255+0000][7.128s][13059][debug] GC(5)       Reconsider SoftReferences: 0.0ms
+[2021-05-25T22:10:15.255+0000][7.128s][13059][debug] GC(5)         SoftRef (ms):             skipped
+[2021-05-25T22:10:15.255+0000][7.128s][13059][debug] GC(5)       Notify Soft/WeakReferences: 0.1ms
+[2021-05-25T22:10:15.255+0000][7.128s][13059][debug] GC(5)         SoftRef (ms):             Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 1
+[2021-05-25T22:10:15.255+0000][7.128s][13059][debug] GC(5)         WeakRef (ms):             Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 1
+[2021-05-25T22:10:15.255+0000][7.128s][13059][debug] GC(5)         FinalRef (ms):            Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 1
+[2021-05-25T22:10:15.255+0000][7.128s][13059][debug] GC(5)         Total (ms):               Min:  0.1, Avg:  0.1, Max:  0.1, Diff:  0.0, Sum:  0.1, Workers: 1
+[2021-05-25T22:10:15.255+0000][7.128s][13059][debug] GC(5)       Notify and keep alive finalizable: 0.0ms
+[2021-05-25T22:10:15.255+0000][7.128s][13059][debug] GC(5)         FinalRef (ms):            skipped
+[2021-05-25T22:10:15.255+0000][7.128s][13059][debug] GC(5)       Notify PhantomReferences: 0.0ms
+[2021-05-25T22:10:15.255+0000][7.128s][13059][debug] GC(5)         PhantomRef (ms):          Min:  0.0, Avg:  0.0, Max:  0.0, Diff:  0.0, Sum:  0.0, Workers: 1
+[2021-05-25T22:10:15.255+0000][7.128s][13059][debug] GC(5)       SoftReference:
+[2021-05-25T22:10:15.255+0000][7.128s][13059][debug] GC(5)         Discovered: 0
+[2021-05-25T22:10:15.255+0000][7.128s][13059][debug] GC(5)         Cleared: 0
+[2021-05-25T22:10:15.255+0000][7.128s][13059][debug] GC(5)       WeakReference:
+[2021-05-25T22:10:15.255+0000][7.128s][13059][debug] GC(5)         Discovered: 589
+[2021-05-25T22:10:15.255+0000][7.128s][13059][debug] GC(5)         Cleared: 589
+[2021-05-25T22:10:15.255+0000][7.128s][13059][debug] GC(5)       FinalReference:
+[2021-05-25T22:10:15.255+0000][7.128s][13059][debug] GC(5)         Discovered: 2
+[2021-05-25T22:10:15.255+0000][7.128s][13059][debug] GC(5)         Cleared: 2
+[2021-05-25T22:10:15.255+0000][7.128s][13059][debug] GC(5)       PhantomReference:
+[2021-05-25T22:10:15.255+0000][7.128s][13059][debug] GC(5)         Discovered: 4
+[2021-05-25T22:10:15.255+0000][7.128s][13059][debug] GC(5)         Cleared: 4
+[2021-05-25T22:10:15.255+0000][7.128s][13059][debug] GC(5)     Weak Processing: 0.0ms
+[2021-05-25T22:10:15.255+0000][7.128s][13059][debug] GC(5)     Merge Per-Thread State: 0.0ms
+[2021-05-25T22:10:15.255+0000][7.128s][13059][debug] GC(5)     Code Roots Purge: 0.0ms
+[2021-05-25T22:10:15.255+0000][7.128s][13059][debug] GC(5)     Redirty Cards: 0.1ms
+[2021-05-25T22:10:15.255+0000][7.128s][13059][debug] GC(5)     DerivedPointerTable Update: 0.0ms
+[2021-05-25T22:10:15.255+0000][7.128s][13059][debug] GC(5)     Free Collection Set: 0.2ms
+[2021-05-25T22:10:15.255+0000][7.128s][13059][debug] GC(5)     Humongous Reclaim: 0.8ms
+[2021-05-25T22:10:15.255+0000][7.128s][13059][debug] GC(5)     Start New Collection Set: 0.0ms
+[2021-05-25T22:10:15.255+0000][7.128s][13059][debug] GC(5)     Resize TLABs: 0.0ms
+[2021-05-25T22:10:15.255+0000][7.128s][13059][debug] GC(5)     Expand Heap After Collection: 0.0ms
+[2021-05-25T22:10:15.255+0000][7.128s][13059][info ] GC(5)   Other: 0.4ms
+[2021-05-25T22:10:15.255+0000][7.128s][13059][info ] GC(5) Eden regions: 1->0(75)
+[2021-05-25T22:10:15.255+0000][7.128s][13059][info ] GC(5) Survivor regions: 4->4(10)
+[2021-05-25T22:10:15.255+0000][7.128s][13059][info ] GC(5) Old regions: 0->0
+[2021-05-25T22:10:15.255+0000][7.128s][13059][info ] GC(5) Humongous regions: 228->228
+[2021-05-25T22:10:15.255+0000][7.128s][13059][info ] GC(5) Metaspace: 15630K->15630K(1062912K)
+[2021-05-25T22:10:15.255+0000][7.128s][13059][debug] GC(5) Heap after GC invocations=6 (full 0): garbage-first heap   total 524288K, used 237394K [0x0000000780000000, 0x0000000800000000)
+[2021-05-25T22:10:15.255+0000][7.128s][13059][debug] GC(5)   region size 1024K, 4 young (4096K), 4 survivors (4096K)
+[2021-05-25T22:10:15.255+0000][7.128s][13059][debug] GC(5)  Metaspace       used 15630K, capacity 15986K, committed 16128K, reserved 1062912K
+[2021-05-25T22:10:15.255+0000][7.128s][13059][debug] GC(5)   class space    used 1552K, capacity 1698K, committed 1792K, reserved 1048576K
+[2021-05-25T22:10:15.255+0000][7.128s][13059][info ] GC(5) Pause Young (Concurrent Start) (G1 Humongous Allocation) 232M->231M(512M) 11.724ms
+[2021-05-25T22:10:15.255+0000][7.128s][13059][info ] GC(5) User=0.02s Sys=0.00s Real=0.01s
+[2021-05-25T22:10:15.255+0000][7.128s][20995][info ] GC(6) Concurrent Cycle
+[2021-05-25T22:10:15.255+0000][7.128s][20995][info ] GC(6) Concurrent Clear Claimed Marks
+[2021-05-25T22:10:15.255+0000][7.128s][20995][info ] GC(6) Concurrent Clear Claimed Marks 0.028ms
+[2021-05-25T22:10:15.255+0000][7.128s][20995][info ] GC(6) Concurrent Scan Root Regions
+[2021-05-25T22:10:15.255+0000][7.128s][20995][debug] GC(6) Running G1 Root Region Scan using 3 workers for 4 work units.
+[2021-05-25T22:10:15.257+0000][7.130s][20995][info ] GC(6) Concurrent Scan Root Regions 1.509ms
+[2021-05-25T22:10:15.257+0000][7.130s][20995][info ] GC(6) Concurrent Mark (7.130s)
+[2021-05-25T22:10:15.257+0000][7.130s][20995][info ] GC(6) Concurrent Mark From Roots
+[2021-05-25T22:10:15.257+0000][7.130s][20995][info ] GC(6) Using 3 workers of 3 for marking
+[2021-05-25T22:10:15.257+0000][7.130s][20995][debug] ---------------------------------------------------------------------
+[2021-05-25T22:10:15.257+0000][7.130s][20995][debug] Marking Stats, task = 0, calls = 1
+[2021-05-25T22:10:15.257+0000][7.130s][20995][debug]   Elapsed time = 0.29ms, Termination time = 0.00ms
+[2021-05-25T22:10:15.257+0000][7.130s][20995][debug]   Step Times (cum): num = 109, avg = 0.01ms, sd = 0.07ms max = 0.66ms, total = 1.38ms
+[2021-05-25T22:10:15.257+0000][7.130s][20995][debug]   Mark Stats Cache: hits 1 misses 47 ratio 2.083
+[2021-05-25T22:10:15.257+0000][7.130s][20995][debug] ---------------------------------------------------------------------
+[2021-05-25T22:10:15.257+0000][7.130s][20995][debug] Marking Stats, task = 1, calls = 1
+[2021-05-25T22:10:15.257+0000][7.130s][20995][debug]   Elapsed time = 0.29ms, Termination time = 0.00ms
+[2021-05-25T22:10:15.257+0000][7.130s][20995][debug]   Step Times (cum): num = 5, avg = 0.26ms, sd = 0.23ms max = 0.66ms, total = 1.32ms
+[2021-05-25T22:10:15.257+0000][7.130s][20995][debug]   Mark Stats Cache: hits 0 misses 0 ratio 0.000
+[2021-05-25T22:10:15.257+0000][7.130s][20995][debug] ---------------------------------------------------------------------
+[2021-05-25T22:10:15.257+0000][7.130s][20995][debug] Marking Stats, task = 2, calls = 1
+[2021-05-25T22:10:15.257+0000][7.130s][20995][debug]   Elapsed time = 0.29ms, Termination time = 0.00ms
+[2021-05-25T22:10:15.257+0000][7.130s][20995][debug]   Step Times (cum): num = 5, avg = 0.26ms, sd = 0.23ms max = 0.65ms, total = 1.31ms
+[2021-05-25T22:10:15.257+0000][7.130s][20995][debug]   Mark Stats Cache: hits 0 misses 0 ratio 0.000
+[2021-05-25T22:10:15.257+0000][7.130s][20995][debug] ---------------------------------------------------------------------
+[2021-05-25T22:10:15.257+0000][7.130s][20995][info ] GC(6) Concurrent Mark From Roots 0.532ms
+[2021-05-25T22:10:15.257+0000][7.130s][20995][info ] GC(6) Concurrent Preclean
+[2021-05-25T22:10:15.257+0000][7.130s][20995][debug] GC(6) Preclean SoftReferences
+[2021-05-25T22:10:15.257+0000][7.130s][20995][debug] GC(6) Preclean SoftReferences 0.021ms
+[2021-05-25T22:10:15.257+0000][7.130s][20995][debug] GC(6) Preclean WeakReferences
+[2021-05-25T22:10:15.258+0000][7.130s][20995][debug] GC(6) Preclean WeakReferences 0.019ms
+[2021-05-25T22:10:15.258+0000][7.130s][20995][debug] GC(6) Preclean FinalReferences
+[2021-05-25T22:10:15.258+0000][7.130s][20995][debug] GC(6) Preclean FinalReferences 0.019ms
+[2021-05-25T22:10:15.258+0000][7.131s][20995][debug] GC(6) Preclean PhantomReferences
+[2021-05-25T22:10:15.258+0000][7.131s][20995][debug] GC(6) Preclean PhantomReferences 0.019ms
+[2021-05-25T22:10:15.258+0000][7.131s][20995][info ] GC(6) Concurrent Preclean 0.136ms
+[2021-05-25T22:10:15.258+0000][7.131s][20995][info ] GC(6) Concurrent Mark (7.130s, 7.131s) 0.705ms
+[2021-05-25T22:10:15.258+0000][7.131s][13059][info ] GC(6) Pause Remark
+[2021-05-25T22:10:15.258+0000][7.131s][13059][debug] GC(6) Finalize Marking
+[2021-05-25T22:10:15.258+0000][7.131s][13059][debug] ---------------------------------------------------------------------
+[2021-05-25T22:10:15.258+0000][7.131s][13059][debug] Marking Stats, task = 0, calls = 54
+[2021-05-25T22:10:15.258+0000][7.131s][13059][debug]   Elapsed time = 0.05ms, Termination time = 0.04ms
+[2021-05-25T22:10:15.258+0000][7.131s][13059][debug]   Step Times (cum): num = 162, avg = 0.01ms, sd = 0.06ms max = 0.66ms, total = 1.45ms
+[2021-05-25T22:10:15.258+0000][7.131s][13059][debug]   Mark Stats Cache: hits 1 misses 47 ratio 2.083
+[2021-05-25T22:10:15.258+0000][7.131s][13059][debug] ---------------------------------------------------------------------
+[2021-05-25T22:10:15.258+0000][7.131s][13059][debug] Marking Stats, task = 1, calls = 2
+[2021-05-25T22:10:15.258+0000][7.131s][13059][debug]   Elapsed time = 0.04ms, Termination time = 0.02ms
+[2021-05-25T22:10:15.258+0000][7.131s][13059][debug]   Step Times (cum): num = 6, avg = 0.22ms, sd = 0.23ms max = 0.66ms, total = 1.35ms
+[2021-05-25T22:10:15.258+0000][7.131s][13059][debug]   Mark Stats Cache: hits 0 misses 0 ratio 0.000
+[2021-05-25T22:10:15.258+0000][7.131s][13059][debug] ---------------------------------------------------------------------
+[2021-05-25T22:10:15.258+0000][7.131s][13059][debug] Marking Stats, task = 2, calls = 2
+[2021-05-25T22:10:15.258+0000][7.131s][13059][debug]   Elapsed time = 0.05ms, Termination time = 0.04ms
+[2021-05-25T22:10:15.258+0000][7.131s][13059][debug]   Step Times (cum): num = 6, avg = 0.22ms, sd = 0.22ms max = 0.65ms, total = 1.35ms
+[2021-05-25T22:10:15.258+0000][7.131s][13059][debug]   Mark Stats Cache: hits 0 misses 0 ratio 0.000
+[2021-05-25T22:10:15.258+0000][7.131s][13059][debug] ---------------------------------------------------------------------
+[2021-05-25T22:10:15.258+0000][7.131s][13059][debug] Marking Stats, task = 3, calls = 1
+[2021-05-25T22:10:15.258+0000][7.131s][13059][debug]   Elapsed time = 0.05ms, Termination time = 0.04ms
+[2021-05-25T22:10:15.258+0000][7.131s][13059][debug]   Step Times (cum): num = 3, avg = 0.03ms, sd = 0.01ms max = 0.05ms, total = 0.10ms
+[2021-05-25T22:10:15.258+0000][7.131s][13059][debug]   Mark Stats Cache: hits 0 misses 0 ratio 0.000
+[2021-05-25T22:10:15.258+0000][7.131s][13059][debug] ---------------------------------------------------------------------
+[2021-05-25T22:10:15.258+0000][7.131s][13059][debug] Marking Stats, task = 4, calls = 1
+[2021-05-25T22:10:15.258+0000][7.131s][13059][debug]   Elapsed time = 0.04ms, Termination time = 0.04ms
+[2021-05-25T22:10:15.258+0000][7.131s][13059][debug]   Step Times (cum): num = 3, avg = 0.04ms, sd = 0.00ms max = 0.04ms, total = 0.11ms
+[2021-05-25T22:10:15.258+0000][7.131s][13059][debug]   Mark Stats Cache: hits 0 misses 0 ratio 0.000
+[2021-05-25T22:10:15.258+0000][7.131s][13059][debug] ---------------------------------------------------------------------
+[2021-05-25T22:10:15.258+0000][7.131s][13059][debug] Marking Stats, task = 5, calls = 1
+[2021-05-25T22:10:15.258+0000][7.131s][13059][debug]   Elapsed time = 0.04ms, Termination time = 0.04ms
+[2021-05-25T22:10:15.258+0000][7.131s][13059][debug]   Step Times (cum): num = 3, avg = 0.04ms, sd = 0.01ms max = 0.06ms, total = 0.13ms
+[2021-05-25T22:10:15.258+0000][7.131s][13059][debug]   Mark Stats Cache: hits 0 misses 0 ratio 0.000
+[2021-05-25T22:10:15.258+0000][7.131s][13059][debug] ---------------------------------------------------------------------
+[2021-05-25T22:10:15.258+0000][7.131s][13059][debug] Marking Stats, task = 6, calls = 1
+[2021-05-25T22:10:15.258+0000][7.131s][13059][debug]   Elapsed time = 0.04ms, Termination time = 0.04ms
+[2021-05-25T22:10:15.258+0000][7.131s][13059][debug]   Step Times (cum): num = 3, avg = 0.04ms, sd = 0.02ms max = 0.06ms, total = 0.11ms
+[2021-05-25T22:10:15.258+0000][7.131s][13059][debug]   Mark Stats Cache: hits 0 misses 0 ratio 0.000
+[2021-05-25T22:10:15.258+0000][7.131s][13059][debug] ---------------------------------------------------------------------
+[2021-05-25T22:10:15.258+0000][7.131s][13059][debug] Marking Stats, task = 7, calls = 1
+[2021-05-25T22:10:15.258+0000][7.131s][13059][debug]   Elapsed time = 0.03ms, Termination time = 0.02ms
+[2021-05-25T22:10:15.258+0000][7.131s][13059][debug]   Step Times (cum): num = 3, avg = 0.03ms, sd = 0.01ms max = 0.05ms, total = 0.08ms
+[2021-05-25T22:10:15.258+0000][7.131s][13059][debug]   Mark Stats Cache: hits 0 misses 0 ratio 0.000
+[2021-05-25T22:10:15.258+0000][7.131s][13059][debug] ---------------------------------------------------------------------
+[2021-05-25T22:10:15.258+0000][7.131s][13059][debug] Marking Stats, task = 8, calls = 1
+[2021-05-25T22:10:15.258+0000][7.131s][13059][debug]   Elapsed time = 0.03ms, Termination time = 0.02ms
+[2021-05-25T22:10:15.258+0000][7.131s][13059][debug]   Step Times (cum): num = 3, avg = 0.02ms, sd = 0.01ms max = 0.02ms, total = 0.05ms
+[2021-05-25T22:10:15.258+0000][7.131s][13059][debug]   Mark Stats Cache: hits 0 misses 0 ratio 0.000
+[2021-05-25T22:10:15.258+0000][7.131s][13059][debug] ---------------------------------------------------------------------
+[2021-05-25T22:10:15.258+0000][7.131s][13059][debug] Marking Stats, task = 9, calls = 1
+[2021-05-25T22:10:15.258+0000][7.131s][13059][debug]   Elapsed time = 0.02ms, Termination time = 0.00ms
+[2021-05-25T22:10:15.258+0000][7.131s][13059][debug]   Step Times (cum): num = 3, avg = 0.01ms, sd = 0.01ms max = 0.02ms, total = 0.03ms
+[2021-05-25T22:10:15.258+0000][7.131s][13059][debug]   Mark Stats Cache: hits 0 misses 0 ratio 0.000
+[2021-05-25T22:10:15.259+0000][7.131s][13059][debug] ---------------------------------------------------------------------
+[2021-05-25T22:10:15.259+0000][7.131s][13059][debug] Marking Stats, task = 10, calls = 1
+[2021-05-25T22:10:15.259+0000][7.131s][13059][debug]   Elapsed time = 0.02ms, Termination time = 0.02ms
+[2021-05-25T22:10:15.259+0000][7.131s][13059][debug]   Step Times (cum): num = 3, avg = 0.01ms, sd = 0.01ms max = 0.02ms, total = 0.04ms
+[2021-05-25T22:10:15.259+0000][7.132s][13059][debug]   Mark Stats Cache: hits 0 misses 0 ratio 0.000
+[2021-05-25T22:10:15.259+0000][7.132s][13059][debug] ---------------------------------------------------------------------
+[2021-05-25T22:10:15.259+0000][7.132s][13059][debug] Marking Stats, task = 11, calls = 1
+[2021-05-25T22:10:15.259+0000][7.132s][13059][debug]   Elapsed time = 0.02ms, Termination time = 0.01ms
+[2021-05-25T22:10:15.259+0000][7.132s][13059][debug]   Step Times (cum): num = 3, avg = 0.01ms, sd = 0.00ms max = 0.01ms, total = 0.03ms
+[2021-05-25T22:10:15.259+0000][7.132s][13059][debug]   Mark Stats Cache: hits 0 misses 0 ratio 0.000
+[2021-05-25T22:10:15.259+0000][7.132s][13059][debug] ---------------------------------------------------------------------
+[2021-05-25T22:10:15.259+0000][7.132s][13059][debug] GC(6) Finalize Marking 0.863ms
+[2021-05-25T22:10:15.259+0000][7.132s][13059][debug] GC(6) Reference Processing
+[2021-05-25T22:10:15.259+0000][7.132s][13059][debug] GC(6) Skipped phase1 of Reference Processing due to unavailable references
+[2021-05-25T22:10:15.259+0000][7.132s][13059][debug] GC(6) Skipped phase2 of Reference Processing due to unavailable references
+[2021-05-25T22:10:15.259+0000][7.132s][13059][debug] GC(6) Skipped phase3 of Reference Processing due to unavailable references
+[2021-05-25T22:10:15.259+0000][7.132s][13059][debug] GC(6) Skipped phase4 of Reference Processing due to unavailable references
+[2021-05-25T22:10:15.259+0000][7.132s][13059][debug] GC(6) Reference Processing: 0.0ms
+[2021-05-25T22:10:15.259+0000][7.132s][13059][debug] GC(6)   Reconsider SoftReferences: 0.0ms
+[2021-05-25T22:10:15.259+0000][7.132s][13059][debug] GC(6)     SoftRef (ms):             skipped
+[2021-05-25T22:10:15.259+0000][7.132s][13059][debug] GC(6)   Notify Soft/WeakReferences: 0.0ms
+[2021-05-25T22:10:15.259+0000][7.132s][13059][debug] GC(6)     SoftRef (ms):             skipped
+[2021-05-25T22:10:15.259+0000][7.132s][13059][debug] GC(6)     WeakRef (ms):             skipped
+[2021-05-25T22:10:15.259+0000][7.132s][13059][debug] GC(6)     FinalRef (ms):            skipped
+[2021-05-25T22:10:15.259+0000][7.132s][13059][debug] GC(6)     Total (ms):               skipped
+[2021-05-25T22:10:15.259+0000][7.132s][13059][debug] GC(6)   Notify and keep alive finalizable: 0.0ms
+[2021-05-25T22:10:15.259+0000][7.132s][13059][debug] GC(6)     FinalRef (ms):            skipped
+[2021-05-25T22:10:15.259+0000][7.132s][13059][debug] GC(6)   Notify PhantomReferences: 0.0ms
+[2021-05-25T22:10:15.259+0000][7.132s][13059][debug] GC(6)     PhantomRef (ms):          skipped
+[2021-05-25T22:10:15.259+0000][7.132s][13059][debug] GC(6)   SoftReference:
+[2021-05-25T22:10:15.259+0000][7.132s][13059][debug] GC(6)     Discovered: 0
+[2021-05-25T22:10:15.259+0000][7.132s][13059][debug] GC(6)     Cleared: 0
+[2021-05-25T22:10:15.259+0000][7.132s][13059][debug] GC(6)   WeakReference:
+[2021-05-25T22:10:15.259+0000][7.132s][13059][debug] GC(6)     Discovered: 0
+[2021-05-25T22:10:15.259+0000][7.132s][13059][debug] GC(6)     Cleared: 0
+[2021-05-25T22:10:15.259+0000][7.132s][13059][debug] GC(6)   FinalReference:
+[2021-05-25T22:10:15.259+0000][7.132s][13059][debug] GC(6)     Discovered: 0
+[2021-05-25T22:10:15.259+0000][7.132s][13059][debug] GC(6)     Cleared: 0
+[2021-05-25T22:10:15.259+0000][7.132s][13059][debug] GC(6)   PhantomReference:
+[2021-05-25T22:10:15.259+0000][7.132s][13059][debug] GC(6)     Discovered: 0
+[2021-05-25T22:10:15.259+0000][7.132s][13059][debug] GC(6)     Cleared: 0
+[2021-05-25T22:10:15.259+0000][7.132s][13059][debug] GC(6) Reference Processing 0.432ms
+[2021-05-25T22:10:15.259+0000][7.132s][13059][debug] GC(6) Weak Processing
+[2021-05-25T22:10:15.259+0000][7.132s][13059][debug] GC(6) Weak Processing 0.029ms
+[2021-05-25T22:10:15.259+0000][7.132s][13059][debug] GC(6) Class Unloading
+[2021-05-25T22:10:15.259+0000][7.132s][13059][debug] GC(6) ClassLoaderData
+[2021-05-25T22:10:15.259+0000][7.132s][13059][debug] GC(6) ClassLoaderData 0.036ms
+[2021-05-25T22:10:15.259+0000][7.132s][13059][debug] GC(6) ProtectionDomainCacheTable
+[2021-05-25T22:10:15.259+0000][7.132s][13059][debug] GC(6) ProtectionDomainCacheTable 0.014ms
+[2021-05-25T22:10:15.260+0000][7.133s][13059][info ] GC(6) Cleaned string and symbol table, strings: 7312 processed, 0 removed, symbols: 50747 processed, 0 removed
+[2021-05-25T22:10:15.260+0000][7.133s][13059][debug] GC(6) Class Unloading 0.840ms
+[2021-05-25T22:10:15.260+0000][7.133s][13059][debug] GC(6) Flush Task Caches
+[2021-05-25T22:10:15.260+0000][7.133s][13059][debug] Mark stats cache hits 1 misses 47 ratio 2.083
+[2021-05-25T22:10:15.260+0000][7.133s][13059][debug] GC(6) Flush Task Caches 0.058ms
+[2021-05-25T22:10:15.260+0000][7.133s][13059][debug] GC(6) Update Remembered Set Tracking Before Rebuild
+[2021-05-25T22:10:15.260+0000][7.133s][13059][debug] GC(6) Running G1 Update RemSet Tracking Before Rebuild using 2 workers for 512 regions in heap
+[2021-05-25T22:10:15.260+0000][7.133s][13059][debug] GC(6) Remembered Set Tracking update regions total 512, selected 0
+[2021-05-25T22:10:15.260+0000][7.133s][13059][debug] GC(6) Update Remembered Set Tracking Before Rebuild 0.116ms
+[2021-05-25T22:10:15.260+0000][7.133s][13059][debug] GC(6) Reclaim Empty Regions
+[2021-05-25T22:10:15.260+0000][7.133s][13059][debug] GC(6) Reclaimed 36 empty regions
+[2021-05-25T22:10:15.260+0000][7.133s][13059][debug] GC(6) Reclaim Empty Regions 0.115ms
+[2021-05-25T22:10:15.260+0000][7.133s][13059][debug] GC(6) Purge Metaspace
+[2021-05-25T22:10:15.260+0000][7.133s][13059][debug] GC(6) Purge Metaspace 0.011ms
+[2021-05-25T22:10:15.260+0000][7.133s][13059][debug] GC(6) Report Object Count
+[2021-05-25T22:10:15.260+0000][7.133s][13059][debug] GC(6) Report Object Count 0.012ms
+[2021-05-25T22:10:15.260+0000][7.133s][13059][info ] GC(6) Pause Remark 236M->200M(512M) 2.641ms
+[2021-05-25T22:10:15.260+0000][7.133s][13059][info ] GC(6) User=0.01s Sys=0.00s Real=0.01s
+[2021-05-25T22:10:15.260+0000][7.133s][20995][info ] GC(6) Concurrent Rebuild Remembered Sets
+[2021-05-25T22:10:15.261+0000][7.134s][20995][info ] GC(6) Concurrent Rebuild Remembered Sets 0.151ms
+[2021-05-25T22:10:15.261+0000][7.134s][13059][info ] GC(6) Pause Cleanup
+[2021-05-25T22:10:15.261+0000][7.134s][13059][debug] GC(6) Update Remembered Set Tracking After Rebuild
+[2021-05-25T22:10:15.261+0000][7.134s][13059][debug] GC(6) Update Remembered Set Tracking After Rebuild 0.028ms
+[2021-05-25T22:10:15.261+0000][7.134s][13059][debug] GC(6) Finalize Concurrent Mark Cleanup
+[2021-05-25T22:10:15.261+0000][7.134s][13059][debug] GC(6) request young-only gcs (candidate old regions not available)
+[2021-05-25T22:10:15.261+0000][7.134s][13059][debug] GC(6) Finalize Concurrent Mark Cleanup 0.110ms
+[2021-05-25T22:10:15.261+0000][7.134s][13059][info ] GC(6) Pause Cleanup 200M->200M(512M) 0.198ms
+[2021-05-25T22:10:15.261+0000][7.134s][13059][info ] GC(6) User=0.00s Sys=0.00s Real=0.00s
+[2021-05-25T22:10:15.261+0000][7.134s][20995][info ] GC(6) Concurrent Cleanup for Next Mark
+[2021-05-25T22:10:15.261+0000][7.134s][20995][debug] GC(6) Running G1 Clear Bitmap with 3 workers for 8 work units.
+[2021-05-25T22:10:15.262+0000][7.135s][20995][info ] GC(6) Concurrent Cleanup for Next Mark 0.648ms
+[2021-05-25T22:10:15.262+0000][7.135s][20995][info ] GC(6) Concurrent Cycle 6.389ms
+[2021-05-25T22:10:15.463+0000][7.336s][20483][debug] Stopping 0
+[2021-05-25T22:10:15.463+0000][7.336s][28931][info ] Heap
+[2021-05-25T22:10:15.464+0000][7.336s][28931][info ]  garbage-first heap   total 524288K, used 218962K [0x0000000780000000, 0x0000000800000000)
+[2021-05-25T22:10:15.464+0000][7.337s][28931][info ]   region size 1024K, 7 young (7168K), 4 survivors (4096K)
+[2021-05-25T22:10:15.464+0000][7.337s][28931][info ]  Metaspace       used 15680K, capacity 16053K, committed 16128K, reserved 1062912K
+[2021-05-25T22:10:15.464+0000][7.337s][28931][info ]   class space    used 1574K, capacity 1742K, committed 1792K, reserved 1048576K
